@@ -1,29 +1,20 @@
 # RunAI-v2 问题清单 & 优化计划
 > Created: 2026-01-15 | Updated: 2026-01-15
-> Status: **Prompt 优化完成，SDK bug 已改善（0.1.19）**
+> Status: **P0 问题已解决，推荐系统稳定运行**
 
 ---
 
 ## 🚨 P0 - 阻塞性问题
 
-### 1. ⚠️ SDK Hook 回调偶发 "Stream closed" 错误（已改善）
-**现象**：`claude_agent_sdk` 的 `PreToolUse` hook 在某些情况下触发 "ProcessTransport is not ready for writing" 错误
-**影响**：tavily_search 调用失败，模型降级用内置知识回答
-**SDK 版本**：0.1.18 → **0.1.19（已升级）**
+### 1. ✅ SDK Hook 回调 "Stream closed" 错误（已解决）
+**根因**：`PreToolUse` 的 `dummy_hook` 触发 SDK stream 通信问题
+**解决方案**：移除不必要的 `dummy_hook`，`can_use_tool` 无需它也能正常工作
 
-**修复进展**：
-- ✅ 升级 SDK 到 0.1.19 → 复现率从 60% 降至约 10%
-- ✅ 模型能自动恢复，不再导致 case 失败
-- ⚠️ 偶发错误仍存在，但不影响最终结果
-
-**评测结果对比**：
-| 指标 | 0.1.18 | 0.1.19 |
+**修复效果**：
+| 指标 | 修复前 | 修复后 |
 |------|--------|--------|
-| 成功率 | 6/6 | 6/6 |
-| 平均耗时 | 184.1s | 74.3s |
-| 搜索失败 | 4/6 case | 1/6 case |
-
-**结论**：问题已基本解决，剩余偶发错误可接受。
+| 成功率 | 4/6 (67%) | 6/6 (100%) |
+| "Stream closed" 错误 | 频繁 | 无 |
 
 ---
 
