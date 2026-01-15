@@ -1,0 +1,86 @@
+[
+  {
+    "case_id": 1,
+    "category": "大体重缓震",
+    "query": "我体重95公斤，刚开始跑步减肥，跑了两次膝盖有点疼，求推荐保护性最好的鞋。",
+    "expected": [
+      "Hoka Bondi 8",
+      "Saucony Triumph 22",
+      "ASICS Gel-Nimbus 26"
+    ],
+    "result": "",
+    "duration_seconds": 101.072422,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 6,
+    "category": "足型-扁平足",
+    "query": "我是严重扁平足，每次跑步脚踝都会往内扣，跑久了足弓酸痛。",
+    "expected": [
+      "ASICS Gel-Kayano 30/31",
+      "Brooks Adrenaline GTS 23",
+      "Saucony Guide 17"
+    ],
+    "result": "",
+    "duration_seconds": 108.861117,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 12,
+    "category": "速度训练-平价无碳板",
+    "query": "平时练间歇跑和节奏跑为主，想要轻一点的，不要碳板，太贵的买不起。",
+    "expected": [
+      "Adidas Adizero SL 2",
+      "Adidas Adios 8",
+      "Brooks Hyperion Tempo"
+    ],
+    "result": "",
+    "duration_seconds": 77.299298,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 13,
+    "category": "慢速体验碳板",
+    "query": "想买碳板鞋体验一下，但我配速只有6分半，驾驭得了吗？",
+    "expected": [
+      "NB FuelCell SuperComp Trainer v2/v3",
+      "Hoka Mach X",
+      "Saucony Kinvara Pro"
+    ],
+    "result": "",
+    "duration_seconds": 87.054344,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 16,
+    "category": "越野-泥地防滑",
+    "query": "周末要去跑越野，路面有很多泥地和碎石，需要防滑好的。",
+    "expected": [
+      "Hoka Speedgoat 6",
+      "Saucony Peregrine 14",
+      "Altra Olympus 5"
+    ],
+    "result": "",
+    "duration_seconds": 85.817187,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 21,
+    "category": "足型-宽脚",
+    "query": "我的脚特别宽，平时穿耐克都挤脚，小脚趾磨泡，要宽楦的。",
+    "expected": [
+      "Altra Torin 7",
+      "NB 1080(2E/4E版)",
+      "NB Rebel v4"
+    ],
+    "result": "",
+    "duration_seconds": 91.895351,
+    "success": true,
+    "error": null
+  }
+]

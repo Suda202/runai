@@ -1,0 +1,20 @@
+[
+  {
+    "case_id": 6,
+    "category": "足型-扁平足",
+    "query": "我是严重扁平足，每次跑步脚踝都会往内扣，跑久了足弓酸痛。",
+    "output": "搜索代理还在运行中，我先基于领域知识给你推荐，同时等待更多价格信息。\n\n---\n\n## 扁平足跑鞋买家指南\n\n### 1. 你的需求分析\n- **问题**：严重扁平足 + 过度内旋（脚踝内扣）+ 足弓酸痛\n- **需求**：**Stability 稳定支撑鞋**，需要 medial post 或 GuideRails 支撑系统来矫正过度内旋\n\n---\n\n### 2. 最佳推荐\n\n#### **ASICS Gel-Kayano 31** — 最强支撑，扁平足首选\n- **价格**：$190（官网）\n- **购买链接**：[asics.com](https://www.asics.com/us/en-us/gel-kayano-31/)\n- **推荐理由**：\n  - Kayano 系列 30 年历史，专为严重内旋设计\n  - 4D Guidance System 提供最强内侧支撑\n  - FF BLAST PLUS 中底，支撑同时不牺牲缓震\n  - 扁平足跑者口碑最好的稳定鞋之一\n- **诚实缺点**：\n  - 价格较高\n  - 偏重（约 310g），不适合追求速度\n  - 支撑感明显，需要适应期\n\n---\n\n### 3. 备选方案\n\n| 鞋款 | 价格 | 支撑强度 | 适合场景 |\n|------|------|----------|----------|\n| **Brooks Adrenaline GTS 24** | $140 | 中等 | GuideRails 支撑更自然，轻度-中度内旋 |\n| **Saucony Guide 17** | $140 | 轻度 | 更轻量，轻度内旋者首选 |\n| **HOKA Arahi 7** | $145 | 中等 | 需要缓震+支撑的大体重跑者 |\n\n**选择建议**：\n- 严重内旋 → **Kayano 31**（支撑最强）\n- 中度内旋、想要更自然脚感 → **Adrenaline GTS 24**\n- 追求轻量 → **Saucony Guide 17**\n\n---\n\n### 4. 购买渠道\n\n| 渠道 | Kayano 31 | Adrenaline GTS 24 |\n|------|-----------|-------------------|\n| 官网 | $190 | $140 |\n| Amazon | $160-180 | $110-130 |\n| Running Warehouse | $170-190 | $130-140 |\n\n**建议**：Amazon 经常有折扣，可以省 $20-30\n\n---\n\n### 5. 劝退提示 ⚠️\n\n**不要买这些**：\n| 鞋款 | 不适合原因 |\n|------|------------|\n| Nike Invincible | ZoomX 太软，扁平足穿会更不稳定 |\n| 中性缓震鞋（Bondi、Nimbus） | 无支撑系统，无法矫正内旋 |\n| 碳板竞速鞋 | 刚性碳板 + 扁平足 = 足弓压力更大 |\n\n---\n\n### 6. 额外建议\n\n1. **先去跑步店做步态分析**：确认内旋程度，选择合适支撑强度\n2. **考虑定制鞋垫**：严重扁平足可配合 Superfeet Green 或定制矫形鞋垫\n3. **循序渐进**：刚换稳定鞋可能需要 1-2 周适应期\n\n---\n\n有预算限制或其他问题可以告诉我，帮你进一步筛选。",
+    "scores": {
+      "hard_constraint_pass": false,
+      "violations": [
+        "推荐了禁止鞋款: Nike Invincible(极不稳)"
+      ],
+      "matches": [
+        "Saucony Guide 17",
+        "[替代] HOKA Arahi 7"
+      ],
+      "needs_verification": []
+    },
+    "duration_ms": 83712
+  }
+]

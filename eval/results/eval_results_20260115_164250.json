@@ -1,0 +1,86 @@
+[
+  {
+    "case_id": 1,
+    "category": "大体重缓震",
+    "query": "我体重95公斤，刚开始跑步减肥，跑了两次膝盖有点疼，求推荐保护性最好的鞋。",
+    "expected": [
+      "Hoka Bondi 8",
+      "Saucony Triumph 22",
+      "ASICS Gel-Nimbus 26"
+    ],
+    "result": "信息已经足够，现在给你推荐方案：\n\n---\n\n## 需求分析\n95公斤体重 + 膝盖前侧/髌骨疼痛 + 初跑者，你需要**高落差（10mm以上）+ 顶级缓震**的鞋款来减少膝盖冲击，同时要有足够的稳定性支撑大体重。\n\n---\n\n## 推荐方案\n\n### 首选：Asics Gel-Nimbus 26 - 约1200-1400元（价格仅供参考）\n**推荐理由：**\n- **40mm+超高缓震堆叠**，后跟PureGel凝胶专门吸收冲击（Doctors of Running评测）\n- **8mm落差**适合膝盖前侧疼痛，减少髌骨压力\n- 稳定性好，适合大体重跑者，多位用户反馈\"比Brooks更耐用\"（Reddit用户评价）\n- 包裹性强，后跟锁定好，不易崴脚\n\n**诚实缺点：**\n- 有个别用户反馈脚踝处衬垫可能压迫（少数案例，试穿时注意）\n- 偏重，不适合追求速度\n\n**购买建议：** 请自行搜索京东/天猫官方旗舰店或线下Asics专柜试穿\n\n---\n\n### 次选：New Balance 1080 v13/v14 - 约1000-1300元（价格仅供参考）\n**推荐理由：**\n- RunRepeat实验室测试\"日常训练鞋中最柔软\"\n- Fresh Foam X中底缓震出色，适合大体重\n- 6mm落差，对膝盖友好\n\n**诚实缺点：**\n- v13版本有用户反馈稳定性略差（v14已改进）\n- 部分用户长距离后仍有膝盖不适（个案）\n\n---\n\n### 备选：Brooks Glycerin 21 - 约1100-1400元（价格仅供参考）\n**推荐理由：**\n- 深层缓震，适合慢跑\n- 比Hoka Bondi 8更柔软舒适（Solereview对比评测）\n\n**诚实缺点：**\n- 落差较低（约6mm），对你的髌骨疼痛保护不如Nimbus 26\n- 偏窄，正常脚宽应该没问题但建议试穿\n\n---\n\n## 如果只买一双，选 **Asics Gel-Nimbus 26**\n理由：8mm落差 + 40mm+缓震堆叠 + 稳定性，最符合你\"膝盖前侧疼 + 大体重\"的需求组合。\n\n---\n\n## 避坑提示\n1. **不要买Hoka Bondi 8**：虽然缓震厚，但中底边缘僵硬会造成压力点，多位评测者反馈\"不如看起来舒服\"（Solereview警告）\n2. **初期控制跑量**：每次不超过3-5公里，每周增加不超过10%，让膝盖适应\n3. **落差很重要**：你的情况需要8-10mm落差，不要买低落差（<6mm）的鞋\n4. **必须试穿**：大体重跑者对鞋的感受差异大，网购记得选支持7天无理由退换的店\n\n---\n\n## 信息来源\n- [Doctors of Running - Asics Gel-Nimbus 26评测](https://www.doctorsofrunning.com/2023/11/asics-gel-nimbus-26-review-2023.html)\n- [RunRepeat - 膝盖疼痛跑鞋指南](https://runrepeat.com/guides/best-knee-pain-running-shoes)\n- [Solereview - Hoka Bondi 8 vs Brooks Glycerin 21对比](https://www.solereview.com/hoka-bondi-8-review/)\n- [Believe in the Run - 大体重跑者推荐](https://believeintherun.com/shoe-reviews/best-running-shoes-for-heavy-runners/)\n- Reddit r/RunningShoeGeeks 用户真实反馈",
+    "duration_seconds": 69.74925,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 6,
+    "category": "足型-扁平足",
+    "query": "我是严重扁平足，每次跑步脚踝都会往内扣，跑久了足弓酸痛。",
+    "expected": [
+      "ASICS Gel-Kayano 30/31",
+      "Brooks Adrenaline GTS 23",
+      "Saucony Guide 17"
+    ],
+    "result": "根据专业评测信息，我为你推荐以下方案：\n\n## 需求分析\n严重扁平足+过度内旋，需要强稳定支撑型跑鞋，防止脚踝内扣，缓解足弓压力。\n\n## 推荐方案\n\n### 首选：Brooks Adrenaline GTS 24 - 约700-900元（价格仅供参考）\n- **推荐理由**：GuideRails导轨系统专门针对过度内旋，不强制矫正而是动态支撑，DNA LOFT缓震能减轻足弓压力。被评为\"可靠的稳定性和舒适缓震\"（Running Gear Lab）\n- **诚实缺点**：比竞品略重，不适合追求速度\n- **购买渠道**：请自行在京东/天猫/得物搜索比价\n\n### 次选：ASICS GT-2000 12 - 约600-800元（价格仅供参考）\n- **推荐理由**：传统稳定科技成熟，针对严重内旋矫正效果明显，直楦型设计适合扁平足\n- **诚实缺点**：脚感偏硬，需要适应期\n- **购买渠道**：请自行搜索\n\n### 备选：Saucony Guide 17 - 约700-900元（价格仅供参考）\n- **推荐理由**：轻量化稳定鞋，适合\"平时锻炼\"场景，不会太笨重（Running Gear Lab评价\"因轻量化在比赛日特别受欢迎\"）\n- **诚实缺点**：缓震不如前两款，严重扁平足可能支撑感不够\n\n## 如果只买一双，选 Brooks Adrenaline GTS 24\n理由：你的症状（脚踝内扣+足弓酸痛）需要强支撑+足够缓震，GTS 24的GuideRails系统和DNA LOFT缓震是最均衡的组合。\n\n## 避坑提示\n- **不要买中性跑鞋**（如Nike Pegasus、Hoka Clifton），会加重内旋\n- **稳定鞋不是越硬越好**，过度矫正反而伤膝盖（Running Gear Lab强调\"稳定鞋是矫正工具，不是比中性鞋更好\"）\n- **350-500公里必须换鞋**，稳定结构失效后反而有害\n\n## 信息来源\n- [Top 5 Best Stability Running Shoes 2025 - Running Gear Lab](https://www.runninggearlab.com/best-stability-running-shoes/)\n- [12 Best Running Shoes for Flat Feet - Dream Ridiculous](https://dreamridiculous.com/vetted/best-running-shoes-for-flat-feet/)\n- [Asics GT 2000 vs Brooks Adrenaline Comparison](https://edwinvonholy.com/2025/05/26/asics-gt-2000-vs-brooks-adrenaline-which-stability-shoe-wins/)",
+    "duration_seconds": 95.539025,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 12,
+    "category": "速度训练-平价无碳板",
+    "query": "平时练间歇跑和节奏跑为主，想要轻一点的，不要碳板，太贵的买不起。",
+    "expected": [
+      "Adidas Adizero SL 2",
+      "Adidas Adios 8",
+      "Brooks Hyperion Tempo"
+    ],
+    "result": "根据搜索结果，我已经有足够信息给你推荐了。\n\n## 需求分析\n70kg体重、预算500-600元、主要跑间歇和节奏跑，需要轻量化非碳板训练鞋，无伤痛史。\n\n## 推荐方案\n\n**首选：Saucony Kinvara 15 - 约600-700元（价格仅供参考）**\n- **推荐理由**：经典轻量训练鞋，重量轻、灵活性好，专为节奏跑和间歇训练设计。Doctors of Running评价其为\"轻量训练/无碳板速度鞋\"，适合喜欢轻盈感的跑者。Believe in the Run称\"Kinvara 15终于回归了Kinvara的感觉\"，Reddit用户多次推荐用于间歇和节奏跑。\n- **诚实缺点**：缓震偏薄（接近极简主义），70kg体重长距离可能不够舒适；需要50公里左右磨合期。\n- **购买建议**：可能略超预算，建议等促销或海淘\n\n**次选：Puma Velocity Nitro 3 - 约500-600元（价格仅供参考）**\n- **推荐理由**：性价比极高的轻量训练鞋。Doctors of Running评价\"既轻到能跑速度训练，又有足够缓震跑长距离\"。RunRepeat实验室测试显示能量回馈优秀，PumaGrip外底耐磨。价格常在500元左右，正好符合预算。\n- **诚实缺点**：中底偏硬（EVA材质而非Nitro泡棉），脚感不如高端鞋弹；鞋楦偏窄，宽脚需试穿。\n- **购买建议**：国内电商常有折扣，性价比最高\n\n**备选：Adidas Adizero SL - 约700-800元（价格仅供参考）**\n- **推荐理由**：快速响应的节奏训练鞋，Reddit用户称\"跑了400+公里后变得很舒适\"。适合速度训练，抓地力和耐久性好。\n- **诚实缺点**：需要50+公里磨合期，初期脚感偏硬；超出预算较多。\n\n## 如果只买一双，选 **Puma Velocity Nitro 3**\n理由：正好在预算内，轻量化（适合间歇跑）+ 足够缓震（70kg体重也能应付），耐磨性好，性价比最高。\n\n## 避坑提示\n- **Kinvara 15**：如果你之前习惯厚底鞋，初期可能觉得缓震不够，建议先短距离适应（来源：Reddit用户反馈\"接近极简主义鞋\"）\n- **Velocity Nitro 3**：鞋楦偏窄，前掌宽的跑者务必试穿（来源：Running Shoes Guru、Road Trail Run多位测试者）\n- 避免买到假货：建议通过官方渠道或靠谱电商购买\n\n## 信息来源\n- [Saucony Kinvara 15 Review - Doctors of Running](https://www.doctorsofrunning.com/2024/08/saucony-kinvara-15-review-2024.html)\n- [Saucony Kinvara 15 Review - Believe in the Run](https://believeintherun.com/shoe-reviews/saucony-kinvara-15-review/)\n- [Puma Velocity Nitro 3 Review - Doctors of Running](https://www.doctorsofrunning.com/2024/02/puma-velocity-nitro-3-review-2024.html)\n- [Puma Velocity Nitro 3 Review - RunRepeat](https://runrepeat.com/puma-velocity-nitro-3)\n- [Reddit r/AskRunningShoeGeeks - 多个讨论帖](https://www.reddit.com/r/AskRunningShoeGeeks/)",
+    "duration_seconds": 67.781665,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 13,
+    "category": "慢速体验碳板",
+    "query": "想买碳板鞋体验一下，但我配速只有6分半，驾驭得了吗？",
+    "expected": [
+      "NB FuelCell SuperComp Trainer v2/v3",
+      "Hoka Mach X",
+      "Saucony Kinvara Pro"
+    ],
+    "result": "好的，根据你的情况分析：**68kg体重、6分半配速跑半马，完全可以驾驭碳板鞋**。这个配速和体重都在碳板鞋的舒适区内。\n\n## 需求分析\n你属于中等配速的休闲跑者，体重适中，想通过碳板鞋体验推进感和省力效果。半马距离对碳板鞋的耐久性要求不高，重点是舒适性和容错性。\n\n---\n\n## 推荐方案\n\n### 首选：Saucony Endorphin Speed 4 - 约1000-1200元（价格仅供参考）\n**推荐理由：**\n- **最适合你的配速段**：Reddit用户反馈\"6分半配速下依然舒适，不会像纯竞速鞋那样挑剔配速\"（r/RunningShoeGeeks）\n- **容错性极高**：尼龙板+PWRRUN PB中底，比全碳板柔和，新手更好驾驭\n- **多场景适用**：Runner's World评价\"既能日常训练也能比赛，是最versatile的碳板鞋之一\"\n- **性价比突出**：美国售价$170，国内打折后约1000出头\n\n**诚实缺点：**\n- 极速冲刺时推进感不如Vaporfly/Alphafly等顶级竞速鞋\n- 鞋面透气性一般，夏天可能偏闷\n\n**购买建议：** 请自行搜索国内电商平台或海淘渠道\n\n---\n\n### 次选：Nike Vaporfly 3 - 约1200-1500元（价格仅供参考）\n**推荐理由：**\n- **慢配速友好**：Reddit多位用户确认\"6分配速甚至更慢的热身跑都很舒适，没有不适感\"（r/RunningShoeGeeks）\n- **顶级性能**：ZoomX泡棉+全掌碳板，推进感明显强于Speed 4\n- **目前有折扣**：2025年款清仓，美国降至$148-199\n\n**诚实缺点：**\n- **稳定性较差**：68kg体重还好，但如果你是足外翻或需要支撑，不建议选\n- **耐久性一般**：泡棉偏软，寿命约300-400公里\n- **价格偏高**：即使打折也可能超预算\n\n**购买建议：** 海淘或等国内电商大促\n\n---\n\n### 备选：ASICS Superblast 2 - 约900-1100元（价格仅供参考）\n**推荐理由：**\n- **无碳板但性能接近**：FF Blast Plus Eco泡棉回弹极佳，Reddit用户称\"半马用它不输碳板鞋\"\n- **更耐用**：无碳板意味着寿命更长（500+公里）\n- **舒适性更好**：适合长距离，脚感柔和\n\n**诚实缺点：**\n- 推进感不如真碳板鞋明显\n- 重量稍大（约260g vs Speed 4的220g）\n\n---\n\n## 如果只买一双，选 **Saucony Endorphin Speed 4**\n理由：你的配速、体重、预算和用途（半马）都完美匹配这双鞋。它既能让你体验碳板的推进感，又不会因为太\"竞速化\"而难驾驭。Vaporfly 3性能更强但稳定性差且贵，Superblast 2虽好但缺少碳板体验。\n\n---\n\n## 避坑提示\n1. **别被\"精英跑者专用\"吓退**：Reddit大量案例证明，6分配速甚至更慢的跑者都能从碳板鞋获益，关键是选对款（来源：r/RunningShoeGeeks多个讨论帖）\n2. **首次穿碳板鞋别跑太快**：前几次训练保持平时配速，让身体适应碳板的推进感和不同的发力方式\n3. **注意稳定性**：如果你有足外翻或膝盖内侧疼史，避开Vaporfly这类窄底+高stack的鞋\n\n---\n\n## 信息来源\n- [RunRepeat - Best Half Marathon Shoes 2025](https://runrepeat.com/guides/best-half-marathon-running-shoes)\n- [Doctors of Running - Carbon Plated Shoes Comparison](https://www.doctorsofrunning.com/2020/03/carbon-fiber-super-shoe-comparison.html)\n- [Reddit r/RunningShoeGeeks - Vaporfly 3慢配速讨论](https://www.reddit.com/r/RunningShoeGeeks/comments/1bgr1uf/nike_vaporfly_3_premiums/)\n- [Reddit r/AskRunningShoeGeeks - Vaporfly慢配速舒适度](https://www.reddit.com/r/AskRunningShoeGeeks/comments/1gy3ft6/whats_the_slowest_pace_you_can_run_in_vaporfly_3s/)\n- [Halfmarathons.net - Endorphin Speed 4 Review](https://www.halfmarathons.net/saucony-endorphin-speed-4-review/)",
+    "duration_seconds": 92.309033,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 16,
+    "category": "越野-泥地防滑",
+    "query": "周末要去跑越野，路面有很多泥地和碎石，需要防滑好的。",
+    "expected": [
+      "Hoka Speedgoat 6",
+      "Saucony Peregrine 14",
+      "Altra Olympus 5"
+    ],
+    "result": "信息已经足够，现在整理推荐方案：\n\n---\n\n## 需求分析\n男性、72kg、20多公里越野比赛，路面有泥地和碎石，需要强抓地力的越野鞋。\n\n## 推荐方案\n\n### 首选：Salomon Speedcross 6 - ¥900-1100（价格仅供参考）\n- **推荐理由**：被 iRunFar 评为\"史上最佳 Speedcross 版本\"，在泥地和技术性地形上抓地力出色，宽齿钉设计专为湿滑路面优化，第六代加宽了鞋底提升稳定性（来源：iRunFar、Treeline Review）\n- **诚实缺点**：齿钉间距虽宽但不完全防泥土堆积，在硬质路面会感觉偏硬\n- **购买链接**：请自行在京东/天猫/迪卡侬搜索\n\n### 次选：Hoka Speedgoat 6 - ¥1000-1200（价格仅供参考）\n- **推荐理由**：被称为\"越野之王\"（GOAT），Vibram Megagrip 大底抓地力强，36mm 后跟缓震适合长距离，多位 Reddit 用户反馈在泥地抓地优于 Salomon（来源：Believe in the Run、Reddit r/trailrunning）\n- **诚实缺点**：比 Speedcross 更软更厚，部分用户觉得稳定性不如 Salomon，耐久性略逊\n- **购买链接**：请自行搜索\n\n### 备选：Inov-8 Mudclaw G 260 - ¥800-1000（价格仅供参考）\n- **推荐理由**：专为泥地设计，8mm 超长齿钉，石墨烯大底强度提升 50%，轻量化（260g），英国越野跑者首选（来源：Running Shoes Guru、YouTube 评测）\n- **诚实缺点**：部分用户反馈后跟可能磨脚，需要磨合期\n- **购买链接**：国内渠道较少，可能需要海淘\n\n---\n\n## 如果只买一双，选 Salomon Speedcross 6\n理由：你的体重 72kg 属于中等，20 多公里距离不算极长，Speedcross 6 的抓地力和稳定性在泥地碎石路面表现最均衡，且国内购买方便。\n\n---\n\n## 避坑提示\n- **Hoka Speedgoat 耐久性问题**：多位 Reddit 用户反馈齿钉磨损比 Salomon 快（来源：Reddit r/trailrunning）\n- **Speedcross 不适合硬质路面**：如果你的越野路线超过 30% 是硬质土路或公路，考虑 Hoka Speedgoat 或 Altra Lone Peak\n- **尺码建议**：Salomon 偏窄，如果是宽脚建议试穿或选大半码\n\n---\n\n## 信息来源\n- [iRunFar - Salomon Speedcross 6 Review](https://www.irunfar.com/salomon-speedcross-6-review)\n- [Treeline Review - Speedcross 6](https://www.treelinereview.com/gearreviews/salomon-speedcross-6-shoe-review)\n- [Reddit r/trailrunning - Salomon vs Hoka 讨论](https://www.reddit.com/r/trailrunning/comments/1ethxb5/trail_running_shoe_recommendation_salomon_vs_hoka/)\n- [Believe in the Run - Hoka Speedgoat 6 Review](https://believeintherun.com/shoe-reviews/hoka-speedgoat-6-review/)\n- [Running Shoes Guru - Inov-8 Mudclaw 275 Review](https://www.runningshoesguru.com/review/inov-8-mudclaw-275/)",
+    "duration_seconds": 73.361593,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 21,
+    "category": "足型-宽脚",
+    "query": "我的脚特别宽，平时穿耐克都挤脚，小脚趾磨泡，要宽楦的。",
+    "expected": [
+      "Altra Torin 7",
+      "NB 1080(2E/4E版)",
+      "NB Rebel v4"
+    ],
+    "result": null,
+    "duration_seconds": 62.299799,
+    "success": false,
+    "error": "unhandled errors in a TaskGroup (1 sub-exception)"
+  }
+]

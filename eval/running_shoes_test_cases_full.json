@@ -1,0 +1,731 @@
+{
+  "version": "1.0",
+  "description": "跑鞋推荐评测集 - 完整30案例",
+  "cases": [
+    {
+      "id": 1,
+      "category": "大体重缓震",
+      "query": "我体重95公斤，刚开始跑步减肥,跑了两次膝盖有点疼，求推荐保护性最好的鞋。",
+      "profile": {
+        "weight": "90kg+",
+        "experience": "初跑者",
+        "pain_point": "膝盖疼/缓冲不足"
+      },
+      "mock_answers": {
+        "疼痛": "膝盖前面，髌骨那块疼",
+        "预算": "一千多块钱吧，不超过1500",
+        "脚型": "应该是正常的，没啥问题",
+        "路面": "小区里的水泥路和马路"
+      },
+      "hard_constraints": {
+        "must_have": ["顶级缓震/Max Cushion", "宽底台/结构稳定", "高堆叠"],
+        "must_not": ["薄底竞速鞋", "Nike Invincible 3(大体重易不稳且掉跟)"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["Hoka Bondi 8", "Saucony Triumph 22", "ASICS Gel-Nimbus 26"],
+        "alternatives": ["Brooks Glycerin 20/21", "New Balance Fresh Foam More v4/v5"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 2,
+      "category": "小体重软弹",
+      "query": "女生，体重48kg，跑得不快，买过一些顶级跑鞋但觉得底太硬踩不动。",
+      "profile": {
+        "weight": "小(48kg)",
+        "pace": "慢跑",
+        "pain_point": "中底过硬"
+      },
+      "mock_answers": {
+        "预算": "七八百到一千",
+        "脚型": "正常的",
+        "路面": "操场和马路",
+        "配速": "六分半到七分"
+      },
+      "hard_constraints": {
+        "must_have": ["低密度泡棉/Soft", "易弯折", "易下压"],
+        "must_not": ["ASICS Kayano(对小体重过硬)", "全掌碳板鞋(太刚性)"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["NB FuelCell Rebel v4", "Hoka Clifton 9", "Nike Pegasus 41"],
+        "alternatives": ["ASICS Gel-Nimbus 25", "Nike ZoomX Invincible 3(注意掉跟风险)"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 3,
+      "category": "LSD长距离",
+      "query": "平时跑量比较大，想要一双专门用来做LSD长距离慢跑的鞋，要在20公里后脚感依然软弹。",
+      "profile": {
+        "scenario": "LSD长距离",
+        "pain_point": "材料衰减"
+      },
+      "mock_answers": {
+        "预算": "一千五以内",
+        "体重": "70公斤",
+        "跑量": "每周40-50公里",
+        "脚型": "正常足弓"
+      },
+      "hard_constraints": {
+        "must_have": ["抗衰减能力强", "高堆叠/High Stack"],
+        "must_not": ["EVA材质鞋(长距离易塌)", "On Cloud 5(薄底/支撑差)"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["ASICS Superblast 2", "NB Fresh Foam X 1080 v13/v14", "Mizuno Wave Neo Vista"],
+        "alternatives": ["Saucony Endorphin Novablast 4", "Nike ZoomX Invincible 3"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 4,
+      "category": "极致软-踩屎感",
+      "query": "想要那种踩屎感特别明显的鞋，主要平时慢跑和走路穿，不追求速度。",
+      "profile": {
+        "preference": "极致软",
+        "scenario": "慢跑/通勤"
+      },
+      "mock_answers": {
+        "预算": "一千左右",
+        "体重": "62公斤",
+        "用途": "上下班通勤 + 周末慢跑",
+        "路面": "城市马路"
+      },
+      "hard_constraints": {
+        "must_have": ["极低密度中底", "厚底"],
+        "must_not": ["Adios 8/Boston 12(偏硬弹)", "传统支撑鞋"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["New Balance Fresh Foam More v4/v5", "Nike Invincible 3(注意掉跟风险)", "ASICS Novablast 4"],
+        "alternatives": ["HOKA Bondi 8/9", "Saucony Triumph 21/22"],
+        "confidence": "high",
+        "special_note": "Nike Invincible 3易掉跟，建议选紧半码或使用跟部锁鞋带系法"
+      }
+    },
+    {
+      "id": 5,
+      "category": "大体重耐久",
+      "query": "大体重跑者，之前的鞋子跑了300公里后跟就塌了，求推荐一双耐造耐压的。",
+      "profile": {
+        "weight": "大",
+        "pain_point": "耐久度"
+      },
+      "mock_answers": {
+        "预算": "一千到一千五",
+        "体重": "90公斤",
+        "跑量": "每周30公里左右",
+        "脚型": "中性"
+      },
+      "hard_constraints": {
+        "must_have": ["高密度中底(PU/TPU)", "支撑性好"],
+        "must_not": ["轻量化EVA鞋(如Clifton)", "极简跑鞋"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["Adidas Ultraboost Light", "Saucony Echelon 9", "Brooks Dyad 11"],
+        "alternatives": ["Mizuno Wave Sky 7", "ASICS Gel-Kayano 30"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 6,
+      "category": "足型-扁平足",
+      "query": "我是严重扁平足，每次跑步脚踝都会往内扣，跑久了足弓酸痛。",
+      "profile": {
+        "foot_type": "扁平足/过度内旋",
+        "pain_point": "足弓内塌/酸痛"
+      },
+      "mock_answers": {
+        "预算": "七八百块，别太贵",
+        "体重": "65公斤",
+        "路面": "学校操场塑胶跑道",
+        "用途": "平时锻炼用"
+      },
+      "hard_constraints": {
+        "must_have": ["强支撑/Motion Control", "双密度/4D引导"],
+        "must_not": ["Nike Invincible(极不稳)", "NB Rebel(鞋身太软无支撑)"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["ASICS Gel-Kayano 30/31", "Brooks Adrenaline GTS 23", "Saucony Guide 17"],
+        "alternatives": ["ASICS GT-2000 12", "HOKA Arahi 7"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 7,
+      "category": "足型-高足弓",
+      "query": "高足弓，脚背比较高，鞋底总是外侧磨损特别严重。",
+      "profile": {
+        "foot_type": "高足弓/外旋",
+        "pain_point": "外侧磨损/避震差"
+      },
+      "mock_answers": {
+        "预算": "八九百",
+        "体重": "75公斤",
+        "脚型": "高脚背，买鞋经常挤",
+        "路面": "马路和公园"
+      },
+      "hard_constraints": {
+        "must_have": ["顶级缓震/Neutral", "高脚背适配"],
+        "must_not": ["支撑系跑鞋(外侧硬)", "一体式鞋舌(压脚背)"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["Brooks Glycerin 21", "ASICS Gel-Nimbus 26", "Mizuno Wave Sky 7"],
+        "alternatives": ["Nike Air Zoom Vomero 16", "Salomon Sonic Balance"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 8,
+      "category": "足型-轻度外翻",
+      "query": "轻微外翻，平时跑短距离没事，但跑半马后程脚踝会不稳，需要一点内旋支撑。",
+      "profile": {
+        "foot_type": "轻度内旋",
+        "scenario": "疲劳后支撑"
+      },
+      "mock_answers": {
+        "预算": "八百到一千",
+        "体重": "68公斤",
+        "目标": "准备半马",
+        "脚型": "平时没问题，就是跑长了会"
+      },
+      "hard_constraints": {
+        "must_have": ["轻量稳定/动态支撑", "加宽底台"],
+        "must_not": ["激进竞速鞋(Vaporfly)", "无支撑软鞋"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["Saucony Tempus(坦途)", "ASICS GT-2000 12", "Hoka Arahi 7"],
+        "alternatives": ["Brooks Adrenaline GTS 23", "ASICS Gel-Kayano 30"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 9,
+      "category": "前掌落地-低坡差",
+      "query": "我是全脚掌落地，感觉现在穿的鞋后跟太厚了，跑起来卡脚，不流畅。",
+      "profile": {
+        "landing": "中前掌",
+        "pain_point": "坡差过大"
+      },
+      "mock_answers": {
+        "预算": "七八百",
+        "体重": "66公斤",
+        "配速": "五分半左右",
+        "脚型": "正常"
+      },
+      "hard_constraints": {
+        "must_have": ["低坡差(4-6mm)", "滚动感强"],
+        "must_not": ["Mizuno Wave Rider(12mm坡差)", "Brooks Ghost(12mm)"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["Hoka Mach 6(5mm坡差)", "Saucony Kinvara 14(4mm)", "NB FuelCell Rebel v4(6mm)"],
+        "alternatives": ["Nike Streakfly", "Newton Gravity 10"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 10,
+      "category": "后跟落地-高坡差",
+      "query": "后跟落地跑法，而且落地很重，有没有后跟缓冲特别好的？",
+      "profile": {
+        "landing": "后跟",
+        "pain_point": "后跟吸震"
+      },
+      "mock_answers": {
+        "预算": "一千以内",
+        "体重": "78公斤",
+        "配速": "六分左右",
+        "脚型": "正常"
+      },
+      "hard_constraints": {
+        "must_have": ["高坡差(10-12mm)", "后跟加宽"],
+        "must_not": ["Altra(0mm坡差)", "Hoka Mach(坡差低)"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["Mizuno Wave Rider 27/28", "Brooks Ghost 16", "Nike Structure 25"],
+        "alternatives": ["ASICS Gel-Nimbus 26", "ASICS Cumulus 25"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 11,
+      "category": "全马竞速-破3",
+      "query": "全马目标PB进3小时，需要一双比赛日穿的竞速鞋。",
+      "profile": {
+        "pace": "全配速快",
+        "scenario": "比赛日"
+      },
+      "mock_answers": {
+        "预算": "两千以内",
+        "体重": "63公斤",
+        "PB": "现在是3小时15分",
+        "脚型": "正常"
+      },
+      "hard_constraints": {
+        "must_have": ["全掌碳板", "极致轻量(<220g)"],
+        "must_not": ["重型慢跑鞋", "薄底训练鞋(Takumi)"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["Nike Vaporfly 3", "Adidas Adios Pro 3", "Saucony Endorphin Elite"],
+        "alternatives": ["Nike Alphafly 3", "ASICS Metaspeed Sky+"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 12,
+      "category": "速度训练-平价无碳板",
+      "query": "平时练间歇跑和节奏跑为主，想要轻一点的，不要碳板，太贵的买不起。",
+      "profile": {
+        "scenario": "速度训练/间歇",
+        "constraint": "无碳板/性价比"
+      },
+      "mock_answers": {
+        "预算": "五六百块，学生党没钱",
+        "体重": "70公斤",
+        "脚型": "正常",
+        "配速": "间歇能跑到430，节奏跑500左右"
+      },
+      "hard_constraints": {
+        "must_have": ["薄底竞训/Flat", "高响应泡棉", "轻量"],
+        "must_not": ["厚底慢跑鞋(反应慢)", "昂贵旗舰"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["Adidas Adizero SL 2", "Adidas Adios 8", "Brooks Hyperion Tempo"],
+        "alternatives": ["New Balance FuelCell Rebel v4", "Puma Deviate Nitro 2"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 13,
+      "category": "慢速体验碳板",
+      "query": "想买碳板鞋体验一下，但我配速只有6分半，驾驭得了吗？",
+      "profile": {
+        "pace": "慢/6:30配速",
+        "concern": "驾驭门槛"
+      },
+      "mock_answers": {
+        "预算": "一千出头可以接受",
+        "体重": "68公斤",
+        "脚型": "正常",
+        "用途": "想跑个半马试试"
+      },
+      "hard_constraints": {
+        "must_have": ["温和型碳板/尼龙板", "底盘稳", "厚缓震"],
+        "must_not": ["Nike Vaporfly/Alphafly(极不稳,伤脚踝)", "Mizuno Rebellion Pro"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["NB FuelCell SuperComp Trainer v2/v3", "Hoka Mach X", "Saucony Kinvara Pro"],
+        "alternatives": ["ASICS Magic Speed 3", "Nike Zoom Fly 5"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 14,
+      "category": "体测-1000米",
+      "query": "体测1000米考试专用，抓地要好，起步要快。",
+      "profile": {
+        "scenario": "操场/体测",
+        "need": "爆发/抓地"
+      },
+      "mock_answers": {
+        "预算": "三四百块",
+        "体重": "65公斤",
+        "目标": "1000米3分30秒",
+        "路面": "塑胶跑道"
+      },
+      "hard_constraints": {
+        "must_have": ["薄底+碎钉/DSP", "路感直接"],
+        "must_not": ["厚底气垫鞋(卸力)", "越野鞋(重)"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["Adidas Takumi Sen 10", "ASICS Tarther(虎走)", "多威征途"],
+        "alternatives": ["Nike ZoomX Streakfly", "李宁飞电Elite"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 15,
+      "category": "全马完赛-4h30",
+      "query": "全马完赛目标4:30，想要一双能帮我省力、跑完脚不疼的碳板鞋。",
+      "profile": {
+        "pace": "中等",
+        "need": "经济性/保护"
+      },
+      "mock_answers": {
+        "预算": "一千到一千五",
+        "体重": "73公斤",
+        "经验": "跑过一次全马，完赛5小时",
+        "脚型": "正常"
+      },
+      "hard_constraints": {
+        "must_have": ["厚底竞训/Super Trainer", "宽容度高"],
+        "must_not": ["只有前掌缓冲的鞋", "极硬的竞速鞋"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["Saucony Endorphin Speed 4(尼龙板)", "Adidas Adizero Boston 12", "Puma Deviate Nitro 3"],
+        "alternatives": ["ASICS GlideRide 3", "Nike Zoom Fly 5"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 16,
+      "category": "越野-泥地防滑",
+      "query": "周末要去跑越野，路面有很多泥地和碎石，需要防滑好的。",
+      "profile": {
+        "scenario": "越野/技术路面",
+        "terrain": "泥地/碎石"
+      },
+      "mock_answers": {
+        "预算": "一千多块没问题",
+        "体重": "72公斤",
+        "距离": "20多公里的比赛",
+        "经验": "跑过几次山，不是纯新手"
+      },
+      "hard_constraints": {
+        "must_have": ["深齿耳(>4mm)", "Vibram/止滑底"],
+        "must_not": ["路跑鞋(大底平)", "轻量竞速鞋"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["Hoka Speedgoat 6", "Saucony Peregrine 14", "Altra Olympus 5"],
+        "alternatives": ["Salomon Speedcross 6", "VJ Ultra"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 17,
+      "category": "混合路面-Road to Trail",
+      "query": "我主要是从家跑到公园，有一段柏油路有一段土路，不需要太专业的越野鞋。",
+      "profile": {
+        "scenario": "混合路面",
+        "need": "兼顾全地形/Road-to-Trail"
+      },
+      "mock_answers": {
+        "预算": "七八百",
+        "体重": "70公斤",
+        "距离": "每次5-10公里",
+        "路面": "60%马路 40%土路"
+      },
+      "hard_constraints": {
+        "must_have": ["浅齿耳(2-3mm)", "公路+越野兼顾"],
+        "must_not": ["重装越野鞋(硬/震脚)", "光头路跑鞋"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["Nike Pegasus Trail 4", "Hoka Challenger 7", "Salomon Sense Ride 5"],
+        "alternatives": ["Brooks Divide 3", "亚瑟士GTX系列"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 18,
+      "category": "室内健身房",
+      "query": "只在健身房跑步机上跑，偶尔做做力量训练，推荐一双透气的。",
+      "profile": {
+        "scenario": "室内",
+        "need": "透气/底稳"
+      },
+      "mock_answers": {
+        "预算": "五六百",
+        "体重": "68公斤",
+        "用途": "跑步机 + 偶尔深蹲硬拉",
+        "脚型": "正常"
+      },
+      "hard_constraints": {
+        "must_have": ["透气鞋面", "中底不过分软"],
+        "must_not": ["厚底碳板鞋(太弹/不稳)", "GTX防水鞋(捂脚)"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["Adidas Adizero SL 2(透气/稳)", "Saucony Kinvara 14", "UA Flow Velociti"],
+        "alternatives": ["Nike Pegasus 40", "Reebok Nano X2"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 19,
+      "category": "冬季防水",
+      "query": "冬天北方室外跑，零下几度，还经常有积雪，怕湿鞋。",
+      "profile": {
+        "environment": "冬季/雪地",
+        "need": "防风防水"
+      },
+      "mock_answers": {
+        "预算": "一千左右",
+        "体重": "75公斤",
+        "温度": "零下5到10度",
+        "路面": "雪后的马路和公园"
+      },
+      "hard_constraints": {
+        "must_have": ["GTX防水膜", "防滑橡胶"],
+        "must_not": ["大网眼跑鞋", "光底鞋(滑)"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["Nike Pegasus 41 GTX", "Saucony Peregrine ICE+(专用冰面底)", "Hoka Speedgoat GTX"],
+        "alternatives": ["冰爪或防滑鞋套", "Icebug品牌越野鞋", "ASICS Cumulus 25 GTX"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 20,
+      "category": "夜跑反光",
+      "query": "经常夜跑，路灯比较暗，希望鞋子反光设计多一点，安全第一。",
+      "profile": {
+        "scenario": "夜跑",
+        "need": "可视性"
+      },
+      "mock_answers": {
+        "预算": "七八百",
+        "体重": "67公斤",
+        "时间": "晚上8-10点",
+        "路面": "小区马路"
+      },
+      "hard_constraints": {
+        "must_have": ["反光材质/Reflective", "高亮配色"],
+        "must_not": ["全黑配色无反光条"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["Puma Velocity Nitro 3(Puma反光通常很大)", "ASICS Lite-Show系列", "Brooks Run Visible系列"],
+        "alternatives": ["反光背心/LED臂带配合", "New Balance Night Series", "Nike Shield Pack"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 21,
+      "category": "足型-宽脚",
+      "query": "我的脚特别宽，平时穿耐克都挤脚，小脚趾磨泡，要宽楦的。",
+      "profile": {
+        "foot_type": "宽足",
+        "pain_point": "挤脚/磨泡"
+      },
+      "mock_answers": {
+        "预算": "八九百块",
+        "体重": "80公斤",
+        "用途": "平时跑步健身",
+        "路面": "马路和公园小路"
+      },
+      "hard_constraints": {
+        "must_have": ["宽楦(2E/4E)", "解剖学鞋头"],
+        "must_not": ["Hoka Mach 6(鞋楦偏窄)", "Nike Pegasus"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["Altra Torin 7", "NB 1080(2E/4E版)", "NB Rebel v4(前掌实测很宽)"],
+        "alternatives": ["Brooks Ghost/Glycerin宽楦版", "ASICS GT-2000 2E版", "Topo Athletic Phantom"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 22,
+      "category": "足型-拇外翻",
+      "query": "有拇外翻，大脚趾根部骨头突出，穿鞋面硬的会疼。",
+      "profile": {
+        "foot_type": "拇外翻",
+        "pain_point": "骨骼压迫"
+      },
+      "mock_answers": {
+        "预算": "八百左右",
+        "体重": "64公斤",
+        "症状": "大脚趾根部那个骨头突出来",
+        "路面": "马路为主"
+      },
+      "hard_constraints": {
+        "must_have": ["柔性鞋面/Knit", "前掌宽"],
+        "must_not": ["有硬质压胶条的鞋", "尖头竞速鞋"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["Altra Rivera", "Hoka Bondi(Wide版)", "Topo Athletic Phantom"],
+        "alternatives": ["New Balance Fresh Foam More v4(2E版)", "ASICS Nimbus 25(宽楦版)"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 23,
+      "category": "足型-瘦脚掉跟",
+      "query": "脚很瘦，脚后跟挂不住鞋，总是掉跟，需要包裹好的。",
+      "profile": {
+        "foot_type": "瘦脚",
+        "pain_point": "掉跟"
+      },
+      "mock_answers": {
+        "预算": "七八百",
+        "体重": "60公斤",
+        "症状": "跑着跑着鞋跟滑出来",
+        "脚型": "脚很瘦，女生"
+      },
+      "hard_constraints": {
+        "must_have": ["窄楦/标准楦", "后跟锁定强"],
+        "must_not": ["Altra(后跟松)", "Nike Invincible 3(严重掉跟)"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["Brooks Ghost(窄版B楦)", "Saucony Ride 17", "Nike Pegasus"],
+        "alternatives": ["ASICS Gel-Cumulus/Nimbus窄版", "Mizuno Wave Rider"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 24,
+      "category": "足型-高脚背",
+      "query": "高脚背，穿那种袜套式的鞋压得脚面发麻，推荐鞋舌分离的。",
+      "profile": {
+        "foot_type": "高脚背",
+        "pain_point": "压脚面"
+      },
+      "mock_answers": {
+        "预算": "七八百",
+        "体重": "71公斤",
+        "症状": "袜套鞋压得脚背疼",
+        "脚型": "脚背特别高"
+      },
+      "hard_constraints": {
+        "must_have": ["分离式鞋舌", "传统鞋带"],
+        "must_not": ["Ultraboost(一体袜套压脚背)", "Nike Infinity"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["Saucony Triumph 22", "Brooks Ghost 16", "Mizuno Wave Rider"],
+        "alternatives": ["ASICS Cumulus 25", "New Balance 880 v12"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 25,
+      "category": "铁三赤足",
+      "query": "平时不穿袜子跑步（铁三习惯），一定要内衬如果不磨脚的。",
+      "profile": {
+        "scenario": "铁三/赤足",
+        "need": "亲肤内衬"
+      },
+      "mock_answers": {
+        "预算": "九百左右",
+        "体重": "68公斤",
+        "用途": "铁三比赛 + 平时训练",
+        "距离": "奥标距离"
+      },
+      "hard_constraints": {
+        "must_have": ["无缝工艺", "快速穿脱"],
+        "must_not": ["做工粗糙的低端鞋", "越野鞋"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["ASICS Noosa Tri 15(铁三专用)", "Hoka Mach 6"],
+        "alternatives": ["Zoot tri跑鞋", "Saucony Kinvara系列", "Nike Vaporfly(短距离可)"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 26,
+      "category": "学生预算300",
+      "query": "预算只有300块，大学生，想买双耐穿的平时跑跑操场。",
+      "profile": {
+        "budget": "300元",
+        "need": "耐磨/性价比"
+      },
+      "mock_answers": {
+        "预算": "三百块左右，学生党",
+        "体重": "69公斤",
+        "用途": "学校操场跑步",
+        "距离": "每次3-5公里"
+      },
+      "hard_constraints": {
+        "must_have": ["耐磨橡胶大底", "基础缓震"],
+        "must_not": ["Nike/Adidas入门款(性价比极低)", "一次性竞速鞋"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["361°飞燃ET/爆沫", "特步2000公里", "安踏马赫4"],
+        "alternatives": ["李宁超轻16", "鸿星尔克抢风系列"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 27,
+      "category": "全能万金油",
+      "query": "我想买一双万金油跑鞋，平时慢跑，偶尔冲刺，也能穿去上班，不要太花哨。",
+      "profile": {
+        "scenario": "综训/通勤",
+        "preference": "低调"
+      },
+      "mock_answers": {
+        "预算": "一千到一千五",
+        "体重": "73公斤",
+        "用途": "上班通勤 + 健身房 + 周末跑步",
+        "配速": "慢跑六分，快跑五分"
+      },
+      "hard_constraints": {
+        "must_have": ["全能型", "素色/Lifestyle"],
+        "must_not": ["荧光色竞速鞋", "造型怪异的厚底鞋"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["On Cloudsurfer(评分89,颜值高)", "Hoka Transport", "Adidas Ultraboost"],
+        "alternatives": ["New Balance 1080黑色款", "Nike Pegasus Shield(黑灰)"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 28,
+      "category": "零落差转型",
+      "query": "想尝试零落差（Zero Drop）的自然跑法，我是新手，直接买五指鞋行吗？",
+      "profile": {
+        "intent": "转型",
+        "risk": "受伤"
+      },
+      "mock_answers": {
+        "预算": "七八百",
+        "体重": "70公斤",
+        "经验": "跑步一年，想尝试自然跑法",
+        "脚型": "正常"
+      },
+      "hard_constraints": {
+        "must_have": ["零落差+厚缓震(过渡用)"],
+        "must_not": ["Vibram五指鞋(太激进,易伤跟腱)", "传统高落差鞋"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["不推荐五指鞋，建议Altra Torin 7(零落差但有厚缓冲)", "Altra Via Olympus"],
+        "alternatives": ["Merrell Vapor Glove等稍有薄垫的赤足鞋"],
+        "confidence": "high",
+        "special_note": "必须循序渐进，先Torin/Olympus过渡数月，再考虑五指鞋"
+      }
+    },
+    {
+      "id": 29,
+      "category": "跟腱炎康复",
+      "query": "以前受过伤，跟腱炎刚恢复，医生建议不要穿太软也不要太平的鞋。",
+      "profile": {
+        "medical_history": "跟腱炎",
+        "constraint": "禁忌0落差/过软"
+      },
+      "mock_answers": {
+        "预算": "八九百",
+        "体重": "72公斤",
+        "恢复": "休息了三个月刚开始跑",
+        "医嘱": "医生说不要太软的鞋"
+      },
+      "hard_constraints": {
+        "must_have": ["高落差(10-12mm)", "中底适中"],
+        "must_not": ["Altra(0落差)", "Nike Invincible(过软)"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["Mizuno Wave Rider 28(实测12mm落差)", "Brooks Ghost 16", "Adidas Solar Glide"],
+        "alternatives": ["ASICS Gel-Cumulus 25", "Saucony Ride 16"],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": 30,
+      "category": "装备党-顶配",
+      "query": "我就想买双最贵的、最高科技的，配置拉满，别管我跑得快不快。",
+      "profile": {
+        "mindset": "装备党",
+        "need": "旗舰"
+      },
+      "mock_answers": {
+        "预算": "两千以内都行",
+        "体重": "70公斤",
+        "配速": "六分多，不快",
+        "心态": "就想要最好的"
+      },
+      "hard_constraints": {
+        "must_have": ["品牌旗舰", "顶级科技"],
+        "must_not": ["基础款综训鞋", "老款打折鞋"]
+      },
+      "soft_reference": {
+        "suggested_shoes": ["Adidas PrimeX Strung(评分88, 50mm超厚底)", "Nike Alphafly 3", "Mizuno Wave Rebellion Pro"],
+        "alternatives": ["ASICS Metaspeed Sky+", "NB FuelCell SC Elite v3"],
+        "confidence": "high",
+        "special_note": "这些顶配鞋多为竞速设计，普通跑者穿可能不见得更舒适，但能满足心理需求"
+      }
+    }
+  ]
+}
