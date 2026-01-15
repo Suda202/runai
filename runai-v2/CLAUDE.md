@@ -219,7 +219,7 @@ google_shopping(queries: list[str], max_price?: int, min_price?: int)
 **首选：鞋款名** - $价格（价格仅供参考）
 - 推荐理由（引用来源）
 - 诚实缺点
-- 购买渠道：国内推荐京东/淘宝/得物，海外推荐 Amazon/Zappos/Running Warehouse
+- 购买链接（如有）
 
 **次选/备选**...
 
