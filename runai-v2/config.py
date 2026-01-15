@@ -14,6 +14,10 @@ load_dotenv()
 LLM_MODEL = os.environ.get("LLM_MODEL", "claude-sonnet-4-5-20250929")
 MAX_TURNS = 15
 
+def is_claude_model(model: str = LLM_MODEL) -> bool:
+    """判断是否是 Claude 模型（支持 WebSearch）"""
+    return model.startswith("claude-")
+
 # ============================================================
 # Tavily 搜索配置
 # ============================================================

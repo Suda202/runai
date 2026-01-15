@@ -22,7 +22,7 @@ from claude_agent_sdk.types import (
 from langsmith.integrations.claude_agent_sdk import configure_claude_agent_sdk
 
 from tools import tavily_search, google_shopping
-from config import LLM_MODEL, MAX_TURNS, SHOPPING_ENABLED, logger
+from config import LLM_MODEL, MAX_TURNS, SHOPPING_ENABLED, is_claude_model, logger
 
 
 # ============================================================
@@ -37,10 +37,9 @@ RUNNING_SHOES_PROMPT = textwrap.dedent("""
     你是 RunAI.one，跑鞋研究专家。
 
     ## 工具
-    - **tavily_search**: queries (list[str] 或单个字符串)，英文搜索评测和口碑
-    - **google_shopping**: queries (list[str])，查价格和购买链接
-
-    **重要**：只使用上述工具，不要使用 WebSearch 或其他搜索工具。
+    - **WebSearch**: 优先使用（如可用），搜索评测和口碑
+    - **tavily_search**: queries (list[str] 或单个字符串)，WebSearch 不可用时的备选
+    - **google_shopping**: queries (list[str])，查价格和购买链接（如可用）
 
     ## 追问
     必问因素：人群、性别、体重、预算、脚型、用途
@@ -53,7 +52,6 @@ RUNNING_SHOES_PROMPT = textwrap.dedent("""
     - 优先英文搜索（专业评测质量高）
     - 必要时中文补充（国产品牌、国内价格、中文社区口碑）
     - 信息足够即可输出，不要凑轮次
-    - 价格查不到 → 估算 + "请自行搜索"
 
     ## 推理规则（核心）
     | 症状 | 需求参数 | 搜索关键词 |
@@ -66,10 +64,16 @@ RUNNING_SHOES_PROMPT = textwrap.dedent("""
     | 高足弓 | 高缓震 | high cushion, neutral, soft midsole |
     | 宽脚 | 宽楦 | 2E, 4E, wide toe box |
 
-    ## 矛盾信息处理
-    专业评测 > 用户帖子 > 单一案例
-    多人一致 > 个案
-    近期评价 > 旧评价
+    ## 信息可信度判断
+    **来源优先级**：专业评测 > Reddit/论坛 > 电商评价 > 单一案例
+    **时效性**：近期评价 > 旧评价（跑鞋迭代快）
+    **一致性**：多人一致 > 个案
+
+    **识别营销内容**（降低权重或忽略）：
+    - 只说优点不提缺点
+    - 过度使用"最好""完美""神器"等词
+    - 来源是品牌官网或明显软文
+    - 没有具体使用场景和数据支撑
 
     ## 输出格式
     需求分析（1-2句）
@@ -78,7 +82,7 @@ RUNNING_SHOES_PROMPT = textwrap.dedent("""
     首选：鞋款名 - 价格（标注"价格仅供参考"）
     - 推荐理由（引用来源）
     - 诚实缺点
-    - 购买链接或"请自行搜索"
+    - 购买渠道：国内推荐京东/淘宝/得物，海外推荐 Amazon/Zappos/Running Warehouse
 
     次选/备选...
 
@@ -186,6 +190,13 @@ async def run_agent(
     # Create MCP server with tools
     tools = [tavily_search]
     allowed = ["mcp__running-shoe-tools__tavily_search", "AskUserQuestion"]
+
+    # Claude 模型支持 WebSearch，优先使用
+    if is_claude_model():
+        allowed.insert(0, "WebSearch")
+        logger.info(f"Model: {LLM_MODEL} (Claude) → WebSearch enabled")
+    else:
+        logger.info(f"Model: {LLM_MODEL} (non-Claude) → tavily_search only")
 
     if SHOPPING_ENABLED:
         tools.append(google_shopping)
