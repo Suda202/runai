@@ -23,15 +23,21 @@ TAVILY_MAX_RESULTS = 5  # 每次搜索返回结果数
 
 # 高优先级来源
 TAVILY_HIGH_PRIORITY_SOURCES = [
-    # 专业评测
+    # 专业评测（英文）
     "runrepeat.com",
     "solereview.com",
     "believeintherun.com",
     "doctorsofrunning.com",
+    "runnersworld.com",
+    "irunfar.com",          # 越野跑专业
+    # 用户评价
+    "zappos.com",
     # Reddit 社区
     "reddit.com/r/runningshoegeeks",
     "reddit.com/r/running",
     "reddit.com/r/AskRunningShoeGeeks",
+    # 中文来源
+    "smzdm.com",            # 什么值得买
 ]
 
 # ============================================================
