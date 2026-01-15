@@ -147,7 +147,7 @@ python run_eval.py
 
 ### 2. 搜索语言
 - **优先英文搜索**（专业评测质量高）
-- **必要时中文补充**（国产品牌、国内价格、中文社区口碑）
+- **中国品牌用中文搜索**（跑步圣经、虎扑跑步区）
 
 ### 3. 搜索工具优先级
 | 模型 | WebSearch | tavily_search |
@@ -209,6 +209,7 @@ google_shopping(queries: list[str], max_price?: int, min_price?: int)
 **默认高优先级来源**（`sources: "high_priority"`）：
 - 专业评测：RunRepeat、Solereview、Believe in the Run、Doctors of Running
 - 用户口碑：Reddit r/runningshoegeeks、r/running、r/AskRunningShoeGeeks
+- 中文社区：跑步圣经、虎扑跑步区
 
 ### 输出格式
 ```
