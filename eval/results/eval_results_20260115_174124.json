@@ -1,0 +1,86 @@
+[
+  {
+    "case_id": 1,
+    "category": "大体重缓震",
+    "query": "我体重95公斤，刚开始跑步减肥，跑了两次膝盖有点疼，求推荐保护性最好的鞋。",
+    "expected": [
+      "Hoka Bondi 8",
+      "Saucony Triumph 22",
+      "ASICS Gel-Nimbus 26"
+    ],
+    "result": "根据我已搜索到的专业评测信息，现在给你推荐方案：\n\n---\n\n## 需求分析\n你是95公斤大体重初跑者，膝盖前侧/髌骨疼痛，这是典型的冲击过载问题。**关键发现**：多个Reddit用户和专业评测指出，**高落差鞋（10mm+）会加重髌骨疼痛**，因为会增加膝盖前侧压力。你需要**中等落差（6-8mm）+ 顶级缓震**的组合。\n\n---\n\n## 推荐方案\n\n### 首选：ASICS Gel-Nimbus 26 - 约1100-1300元（价格仅供参考）\n**推荐理由**：\n- **8mm落差**，不会像高落差鞋那样加重髌骨压力（来源：RunRepeat膝盖疼痛跑鞋指南）\n- 顶级缓震，多位大体重跑者在Reddit评价\"比Hoka Bondi 8更轻盈、更舒适\"（来源：r/RunningShoeGeeks 500km Bondi 8评测帖）\n- 有跑者明确表示从Bondi换到Nimbus 26后体验更好（来源：Reddit用户实测对比）\n\n**诚实缺点**：\n- 前200公里需要磨合期，初期可能感觉偏硬\n- 透气性一般，夏天跑步会闷脚\n\n**购买建议**：请自行在京东/天猫/迪卡侬搜索\"ASICS Gel-Nimbus 26\"\n\n---\n\n### 次选：New Balance Fresh Foam X 1080 v13 - 约900-1200元（价格仅供参考）\n**推荐理由**：\n- **6mm落差**，对膝盖前侧压力更小\n- 有用户明确反馈\"膝盖疼痛和腿部疼痛都减轻了\"（来源：Fleet Feet用户评价）\n- 缓震柔软，适合初跑者\n\n**诚实缺点**：\n- **警告**：有大体重跑者反馈\"后跟压缩太多，感觉会过度伸展膝盖\"（来源：Reddit 1080 v13 4E版本评测）\n- 建议试穿后确认后跟稳定性\n\n**购买建议**：请自行搜索，建议选v14新版（2024年底上市）\n\n---\n\n### 备选：Saucony Triumph 21 - 约1000-1300元（价格仅供参考）\n**推荐理由**：\n- **10mm落差**，虽然偏高但缓震出色\n- 有跑者推荐给膝盖疼痛者\"冲击吸收很好\"（来源：Facebook跑步群讨论）\n\n**诚实缺点**：\n- 落差较高，可能不如Nimbus 26适合髌骨疼痛\n- 重量较大\n\n---\n\n## 如果只买一双，选 **ASICS Gel-Nimbus 26**\n理由：8mm中等落差 + 顶级缓震 + 多位大体重跑者实测好评，最符合你的需求。\n\n---\n\n## 避坑提示\n1. **不要选高落差鞋（10mm+）**：多位髌骨疼痛跑者反馈\"高落差会加重膝盖前侧压力\"（来源：r/RunningShoeGeeks多个讨论帖）\n2. **避免过软缓震**：有跑者反馈\"太软的鞋反而增加膝盖负担\"（来源：Reddit \"Knee pain from too soft cushioning\"讨论）\n3. **循序渐进**：初期每次跑3-5公里，每周增加不超过10%里程\n4. **考虑买两双轮换**：可以延长鞋寿命，减少受伤风险（来源：Reddit大体重跑者建议）\n\n---\n\n## 信息来源\n- [RunRepeat - 2025年膝盖疼痛最佳跑鞋指南](https://runrepeat.com/guides/best-knee-pain-running-shoes)\n- [Reddit - Hoka Bondi 8大体重跑者500km评测](https://www.reddit.com/r/RunningShoeGeeks/comments/1da64cl/review_500_km_on_hoka_bondi_8_from_a_heavy_runner/)\n- [Reddit - Bondi 8 vs Nimbus 25对比](https://www.reddit.com/r/RunningShoeGeeks/comments/159k9dt/hokas_bondi_8_vs_asics_gel_nimbus_25/)\n- [Believe in the Run - Nimbus 26评测](https://runtothefinish.com/asics-gel-nimbus-26/)\n- [Reddit - 高落差鞋与膝盖疼痛讨论](https://www.reddit.com/r/RunningShoeGeeks/comments/103j5g8/do_high_heeltoe_drop_shoes_exacerbate_preexisting/)",
+    "duration_seconds": 97.284215,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 6,
+    "category": "足型-扁平足",
+    "query": "我是严重扁平足，每次跑步脚踝都会往内扣，跑久了足弓酸痛。",
+    "expected": [
+      "ASICS Gel-Kayano 30/31",
+      "Brooks Adrenaline GTS 23",
+      "Saucony Guide 17"
+    ],
+    "result": "## 需求分析\n你是严重扁平足+过度内旋（脚踝内扣），需要**强稳定支撑型跑鞋**，同时要有足够缓震来缓解足弓酸痛。\n\n---\n\n## 推荐方案\n\n### 首选：ASICS GT-2000 12 - 约700-900元（价格仅供参考）\n- **推荐理由**：\n  - 采用全新3D Guidance System稳定系统，专为严重过度内旋设计，能有效控制脚踝内扣（Believe in the Run、Doctors of Running评测）\n  - 中等偏强的稳定性，比Brooks Adrenaline更贴合包裹，对扁平足支撑更直接（Reddit用户对比反馈）\n  - 缓震适中，能缓解足弓酸痛但不会过软失去支撑\n  - 性价比高，符合你的预算\n- **诚实缺点**：鞋楦偏窄，如果你是宽脚可能需要买宽楦版（2E）\n- 购买链接：请在京东、天猫搜索\"ASICS GT-2000 12\"或\"亚瑟士GT-2000 12\"\n\n---\n\n### 次选：Brooks Adrenaline GTS 23 - 约800-1000元（价格仅供参考）\n- **推荐理由**：\n  - 经典稳定跑鞋，GuideRails稳定系统温和但有效，适合严重过度内旋（Doctors of Running长期推荐）\n  - 鞋楦比GT-2000宽松，前掌空间更大，舒适度更好（Reddit用户反馈\"wide toebox\"）\n  - 缓震充足，适合日常慢跑\n- **诚实缺点**：\n  - 价格可能超预算（接近1000元）\n  - 稳定性比GT-2000稍温和，对\"严重\"扁平足可能支撑感不如GT-2000直接\n- 购买链接：请在京东、天猫搜索\"Brooks Adrenaline GTS 23\"\n\n---\n\n### 备选：Saucony Guide 17 - 约900-1100元（价格仅供参考）\n- **推荐理由**：新一代稳定系统，通过鞋底雕刻设计提供全脚掌支撑（Runner's World评测）\n- **诚实缺点**：\n  - 稳定性属于\"中等\"级别，对严重扁平足可能不够（用户评价\"not as supportive as NB or Brooks\"）\n  - 价格偏高，可能超预算\n- 不太推荐作为首选，除非你试穿后觉得GT-2000/Adrenaline太硬\n\n---\n\n## 如果只买一双，选 **ASICS GT-2000 12**\n理由：针对性最强（3D稳定系统专治过度内旋）、价格最合适、专业评测一致好评。\n\n---\n\n## 避坑提示\n1. **不要买中性跑鞋**（如ASICS Nimbus、Brooks Ghost）：没有稳定支撑，会加重脚踝内扣和足弓酸痛\n2. **试穿时注意鞋楦宽度**：GT-2000偏窄，如果你是宽脚务必买2E宽楦版，否则会挤脚\n3. **不要追求\"软弹\"**：扁平足需要支撑而非极致缓震，过软的鞋会让足弓更累（Reddit多位扁平足跑者经验）\n\n---\n\n## 信息来源\n- [Doctors of Running - ASICS GT-2000 12评测](https://www.doctorsofrunning.com/2021/01/asics-gt-2000-9-review.html)\n- [Believe in the Run - GT-2000 12评测](https://believeintherun.com/shoe-reviews/asics-gt-2000-12-review/)\n- [Reddit - 严重过度内旋用户对比Adrenaline vs GT-2000](https://www.reddit.com/r/running/comments/tqcn1d/adrenaline_gts_21_vs_22_vs_asics_gt_2000_10_for/)\n- [Garage Gym Reviews - 预算稳定跑鞋推荐](https://www.garagegymreviews.com/best-stability-running-shoes)",
+    "duration_seconds": 72.891469,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 12,
+    "category": "速度训练-平价无碳板",
+    "query": "平时练间歇跑和节奏跑为主，想要轻一点的，不要碳板，太贵的买不起。",
+    "expected": [
+      "Adidas Adizero SL 2",
+      "Adidas Adios 8",
+      "Brooks Hyperion Tempo"
+    ],
+    "result": "信息已经足够，现在给你推荐方案：\n\n---\n\n**需求分析**  \n70kg体重、间歇跑和节奏跑为主，需要轻量化非碳板训练鞋，预算500-600元。\n\n---\n\n## 推荐方案\n\n### 首选：Saucony Kinvara 15 - 约600元（价格仅供参考）\n- **推荐理由**：重量仅6.0盎司（约170g），4mm落差，专为轻量化训练设计。Doctors of Running评价其为\"适合喜欢极轻鞋款且需要缓震和灵活性的训练/无碳板竞速鞋\"。非常适合你的间歇跑和节奏跑需求。\n- **诚实缺点**：Believe in the Run指出\"Kinvara 15没有革命性变化\"，耐久性一般（约400-500公里），缓震相对薄弱，不适合大体重跑者长距离。\n- **购买链接**：请在京东/天猫搜索\"Saucony Kinvara 15\"或海淘渠道\n\n### 次选：ASICS Noosa Tri 16 - 约550-650元（价格仅供参考）\n- **推荐理由**：Reddit用户评价其为\"被严重低估的节奏跑鞋\"，轻量化设计配合激进的rocker几何，\"非常适合5k/10k快速训练，超轻且有趣\"。Doctors of Running认为其\"适合想要中等缓震、稍硬/更有弹性骑乘感的轻量训练/配速鞋\"。\n- **诚实缺点**：有用户反映\"太柔软，能量回馈不足以用于竞速\"，更适合训练而非比赛日。\n- **购买链接**：请在京东/天猫搜索\"ASICS Noosa Tri 16\"\n\n### 备选：New Balance FuelCell Rebel v4 - 约900-1000元（超预算）\n- **说明**：重量7.7盎司（约218g），官方售价$140-150。虽然超出预算，但如果能接受加价，这是最受好评的轻量训练鞋之一，Believe in the Run称其\"比前代更稳定、更推进、更舒适\"。\n- **缺点**：价格偏高，可能需要等打折。\n\n---\n\n## 如果只买一双，选 **Saucony Kinvara 15**  \n理由：最轻（170g）、价格在预算内、专为节奏跑设计，Reddit和专业评测一致认可其在间歇训练中的表现。\n\n---\n\n## 避坑提示\n- **Kinvara 15耐久性一般**：多位评测者提到约400-500公里后缓震明显衰减（来源：Believe in the Run, Doctors of Running）\n- **Noosa Tri 16不适合竞速**：Reddit用户反馈其更适合训练而非比赛日，能量回馈不如专业竞速鞋\n- **避免买到假货**：这两款都有仿品，建议通过官方旗舰店或靠谱海淘渠道购买\n\n---\n\n## 信息来源\n- [RunRepeat - Best Tempo Shoes 2025](https://runrepeat.com/guides/best-tempo-running-shoes)\n- [Doctors of Running - Kinvara 15 Review](https://www.doctorsofrunning.com/2024/08/saucony-kinvara-15-review-2024.html)\n- [Believe in the Run - Kinvara 15 Review](https://believeintherun.com/shoe-reviews/saucony-kinvara-15-review/)\n- [Reddit - Noosa Tri 16 Review](https://www.reddit.com/r/RunningShoeGeeks/comments/1o6ojxh/asics_noosa_tri_16_review_a_wildly_underhyped/)\n- [Doctors of Running - Noosa Tri 16 Review](https://www.doctorsofrunning.com/2024/06/asics-noosa-tri-16-review-2024.html)",
+    "duration_seconds": 53.711622,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 13,
+    "category": "慢速体验碳板",
+    "query": "想买碳板鞋体验一下，但我配速只有6分半，驾驭得了吗？",
+    "expected": [
+      "NB FuelCell SuperComp Trainer v2/v3",
+      "Hoka Mach X",
+      "Saucony Kinvara Pro"
+    ],
+    "result": "## 需求分析\n6分半配速（约4:00/km）完全可以驾驭碳板鞋！你的体重68kg属于中等，半马距离正是碳板鞋的最佳使用场景。\n\n---\n\n## 推荐方案\n\n**首选：Saucony Endorphin Speed 4 - 约1190元**（价格仅供参考）\n- **推荐理由**：这是最适合你的\"入门碳板鞋\"。尼龙板（不是碳板）+ PWRRUN PB泡棉，提供温和的推进感，不会像顶级碳板那样激进。RunRepeat和Believe in the Run都评价它\"在各种配速下都很舒适\"，有Reddit用户表示\"从6:50/英里减速到8:30/英里都能适应\"（来源：Reddit r/AskRunningShoeGeeks）\n- **诚实缺点**：不是纯碳板，推进感不如Pro系列强烈；耐久性一般（约500-600公里）\n- 购买链接：请自行搜索国内电商平台\n\n**次选：Nike Zoom Fly 6 - 约900-1100元**（价格仅供参考）\n- **推荐理由**：预算友好的碳板入门款，React泡棉比Vaporfly更耐用，稳定性更好。Solereview评价\"比Vaporfly更不容易出现深度折痕，更耐用\"（来源：Solereview）\n- **诚实缺点**：泡棉偏硬，回弹感不如PEBA材质；重量比Speed 4略重\n- 购买链接：请自行搜索国内电商平台\n\n**备选（如果预算能再加点）：Saucony Endorphin Pro 4 - 约1400-1600元**（价格仅供参考）\n- **推荐理由**：真碳板 + PWRRUN HG泡棉，Doctors of Running评价\"在长距离表现出色，比许多超级跑鞋在快配速下感觉更好\"（来源：Doctors of Running 2024评测）\n- **诚实缺点**：价格超预算；对新手来说可能过于激进\n- 购买链接：请自行搜索国内电商平台\n\n---\n\n**如果只买一双，选 Endorphin Speed 4**。它容错率高，既能用于半马比赛，也能日常间歇训练，不会因为配速波动而感觉不适。\n\n---\n\n## 避坑提示\n1. **配速焦虑是误区**：Reddit多个帖子显示，碳板鞋的\"最低配速要求\"是伪命题。泡棉缓震和稳定性才是核心价值，推进感是附加福利（来源：Reddit r/RunningShoeGeeks）\n2. **避开纯竞速款**：Nike Vaporfly/Alphafly系列稳定性差，Solereview明确指出\"Vaporfly 4后跟稳定性差\"，不适合新手半马全程使用\n3. **别迷信\"越贵越好\"**：顶级碳板鞋（如Alphafly 3）设计给精英选手，你的配速下可能感觉\"硬邦邦\"反而不舒服\n\n---\n\n## 信息来源\n- [Reddit: 碳板鞋配速讨论](https://www.reddit.com/r/AskRunningShoeGeeks/comments/1i4084e/what_speedmile_for_a_carbon_plated_shoe/)\n- [Doctors of Running: Endorphin Pro 4评测](https://www.doctorsofrunning.com/2024/04/saucony-endorphin-pro-4-review-2024.html)\n- [Solereview: Vaporfly 4稳定性分析](https://www.solereview.com/nike-vaporfly-4-review)\n- [RunRepeat: 2025最佳碳板鞋指南](https://runrepeat.com/guides/best-carbon-plate-running-shoes)",
+    "duration_seconds": 72.93192,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 16,
+    "category": "越野-泥地防滑",
+    "query": "周末要去跑越野，路面有很多泥地和碎石，需要防滑好的。",
+    "expected": [
+      "Hoka Speedgoat 6",
+      "Saucony Peregrine 14",
+      "Altra Olympus 5"
+    ],
+    "result": "## 需求分析\n泥地+碎石混合路面，需要极强的防滑抓地力，你有一定越野经验，72kg体重适中，预算充足。\n\n## 推荐方案\n\n**首选：Salomon Speedcross 6 - 约1000-1200元**（价格仅供参考）\n- **推荐理由**：专为泥地设计的王者。Contagrip® Mud外底采用超大侵略性齿钉（深度达6mm），在泥地、沙地、雪地抓地力无敌。多个评测（iRunFar、Switchback Travel、TreelineReview）一致认为这是泥地表现最好的越野鞋，\"best traction of any trail shoe available\"。加宽的鞋底提升了稳定性，适合你72kg的体重。\n- **诚实缺点**：透气性差（封闭式鞋面防泥设计），不适合干燥硬地或岩石路面（橡胶偏软会磨损快），10mm落差偏高需要适应。\n- **购买链接**：请在天猫/京东搜索\"Salomon Speedcross 6\"或萨洛蒙官方渠道\n\n**次选：Hoka Speedgoat 6 - 约1200-1400元**（价格仅供参考）\n- **推荐理由**：全能型选手，在碎石路面表现更好。5mm齿钉+Vibram Megagrip外底，湿岩石抓地力优于Speedcross。36mm后跟缓震适合长距离，Reddit用户反馈\"在各种地形都很稳定\"。\n- **诚实缺点**：泥地排泥能力不如Speedcross（齿钉间距较密），有用户反馈\"lacking traction in mud\"相比Speedcross。\n- **购买链接**：请自行搜索Hoka官方或授权渠道\n\n**备选：Nike Zegama 2 - 约1100元**（价格仅供参考）\n- **推荐理由**：第二代升级为Vibram Megagrip外底，湿岩石抓地力大幅改善。ZoomX泡棉脚感舒适，适合长距离。\n- **诚实缺点**：Reddit多人反馈\"grip was as bad as advertised on wet rock and wood\"（即使升级了Vibram），泥地表现一般。\n- **购买链接**：请自行搜索Nike官方或跑步专卖店\n\n## 如果只买一双，选 Speedcross 6\n你的路况\"很多泥地+碎石\"，泥地占比大的话Speedcross 6是不二之选，它在泥地的统治力无可替代。如果碎石路面更多且有湿滑岩石，考虑Speedgoat 6。\n\n## 避坑提示\n- **不要买Speedcross跑硬地公路**：软橡胶会快速磨损，iRunFar警告\"not for hard surfaces\"\n- **Zegama 2湿滑表现存疑**：虽然换了Vibram，但Reddit实测反馈湿岩石抓地力仍不理想\n- **尺码建议**：Speedcross偏窄，宽脚建议试穿或选宽楦版本\n\n## 信息来源\n- [Salomon Speedcross 6 Review - iRunFar](https://www.irunfar.com/salomon-speedcross-6-review)\n- [Salomon Speedcross 6 Review - TreelineReview](https://www.treelinereview.com/gearreviews/salomon-speedcross-6-shoe-review)\n- [Hoka Speedgoat vs Salomon Speedcross - Reddit](https://www.reddit.com/r/RunningShoeGeeks/comments/15mjaii/hoka_speedgoat_5_or_salomon_speeecross_6/)\n- [Trail Shoes Wet Rock Grip - Reddit](https://www.reddit.com/r/trailrunning/comments/1m997tn/trail_running_shoes_with_good_wet_rock_grip/)\n- [Nike Zegama 2 Review - Reddit](https://www.reddit.com/r/RunningShoeGeeks/comments/1cd9zn8/nike_zegama_2/)",
+    "duration_seconds": 67.521011,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 21,
+    "category": "足型-宽脚",
+    "query": "我的脚特别宽，平时穿耐克都挤脚，小脚趾磨泡，要宽楦的。",
+    "expected": [
+      "Altra Torin 7",
+      "NB 1080(2E/4E版)",
+      "NB Rebel v4"
+    ],
+    "result": "好的，信息已经足够了。让我整理推荐方案：\n\n---\n\n## 需求分析\n你是80公斤体重的大体重跑者，日常跑步健身，主要痛点是脚宽（小脚趾磨泡）。需要宽楦头、足够缓震支撑的跑鞋。\n\n---\n\n## 推荐方案\n\n### 首选：Altra Torin 7（标准版）\n**价格：约 800-1000 元**（价格仅供参考，请自行搜索）\n\n**推荐理由：**\n- **超宽楦头设计**：Altra 的标志性 FootShape 鞋楦，前掌宽度达 82.1mm，脚趾可以自然展开，完全解决挤脚问题（RunRepeat 实测数据）\n- **零落差 + 适中缓震**：0mm 落差 + 33mm 中底厚度，适合 80kg 体重的日常训练\n- **多位宽脚跑者好评**：\"对宽脚非常友好\"（Fleet Feet 评测）、\"脚趾有充足空间\"（Doctors of Running）\n\n**诚实缺点：**\n- 零落差需要适应期（如果你习惯传统跑鞋，建议循序渐进）\n- 鞋面偏紧（虽然前掌宽，但中足包裹较紧）\n- 耐磨性一般（大底橡胶覆盖不够全面）\n\n**购买建议：** 天猫/京东搜索\"Altra Torin 7\"，或海淘平台\n\n---\n\n### 次选：Topo Athletic Phantom 3\n**价格：约 700-900 元**（价格仅供参考，请自行搜索）\n\n**推荐理由：**\n- **宽楦头 + 5mm 低落差**：前掌宽度 82.1mm，比传统跑鞋宽很多，且有 E 宽版可选\n- **高缓震 + 轻量化**：适合 80kg 体重的日常训练，比 Altra 多一点落差（更好适应）\n- **Reddit 跑者推荐**：\"完美适合宽脚，5mm 落差 + 高缓震\"（r/RunningShoeGeeks）\n\n**诚实缺点：**\n- 品牌知名度不如 Altra/New Balance，国内购买渠道较少\n- 5mm 落差仍需适应（但比零落差容易）\n\n**购买建议：** 海淘或代购（国内渠道较少）\n\n---\n\n### 备选：New Balance 880 v14（2E 宽版）\n**价格：约 900-1100 元**（价格仅供参考，请自行搜索）\n\n**推荐理由：**\n- **2E 宽版可选**：New Balance 是少数提供多宽度选项的品牌，2E 版前掌宽松\n- **传统落差 + 稳定缓震**：8mm 落差，适合从传统跑鞋过渡，80kg 体重也能应付\n- **国内购买方便**：天猫/京东官方旗舰店有售\n\n**诚实缺点：**\n- **楦头不如 Altra/Topo 宽**：虽然是 2E 宽版，但前掌宽度仍不如 Altra/Topo（约 75-78mm vs 82mm）\n- 价格偏高（接近预算上限）\n- 部分评测反馈\"中足偏紧\"（Doctors of Running）\n\n**购买建议：** 天猫/京东 New Balance 官方旗舰店\n\n---\n\n## 如果只买一双，选 Altra Torin 7\n理由：\n1. **楦头最宽**（82.1mm），彻底解决挤脚问题\n2. **性价比高**（800-1000 元，符合预算）\n3. **国内购买相对方便**（天猫/京东有售）\n\n**注意**：零落差需要适应期，建议前 2-3 周每次跑 3-5 公里，逐步增加里程。\n\n---\n\n## 避坑提示\n1. **不要买 Brooks Ghost 16 宽版**：虽然有 2E 版，但多位跑者反馈\"楦头仍然偏窄\"（Reddit r/RunningShoeGeeks），不适合你这种\"小脚趾磨泡\"的情况\n2. **不要买 Hoka 标准版**：Hoka 标准版普遍偏窄（Marathon Handbook 评测），除非买宽版（但国内渠道少）\n3. **耐克/阿迪达斯慎选**：这两个品牌普遍楦头窄，即使宽版也不如 Altra/Topo\n\n---\n\n## 信息来源\n- [RunRepeat - Best Wide Toebox Running Shoes 2025](https://runrepeat.com/guides/best-wide-toebox-running-shoes)\n- [Believe in the Run - Best Wide Foot Running Shoes 2025](https://believeintherun.com/shoe-reviews/best-wide-foot-running-shoes/)\n- [Doctors of Running - Altra Torin 7 Review](https://www.doctorsofrunning.com/2023/10/altra-torin-7-review-2023.html)\n- [RunRepeat - Topo Phantom 3 Review](https://runrepeat.com/topo-athletic-phantom-3)\n- [Reddit r/RunningShoeGeeks - Wide Feet Discussions](https://www.reddit.com/r/RunningShoeGeeks/)",
+    "duration_seconds": 81.665081,
+    "success": true,
+    "error": null
+  }
+]
