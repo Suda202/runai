@@ -17,10 +17,11 @@ RunAI Agent Python 版本，基于 Claude Agent SDK + LangSmith。
 │                         Claude Agent SDK (Python)                        │
 │  ┌─────────────────────────────────────────────────────────────────┐   │
 │  │  ClaudeAgentOptions                                              │   │
-│  │    • model: MiniMax-M2.1                                        │   │
+│  │    • model: LLM_MODEL 环境变量（默认 Claude Sonnet 4.5）          │   │
 │  │    • system_prompt: RUNNING_SHOES_PROMPT                        │   │
 │  │    • max_turns: 15                                              │   │
-│  │    • allowed_tools: [tavily_search, google_shopping]           │   │
+│  │    • allowed_tools: [WebSearch*, tavily_search, google_shopping]│   │
+│  │      * WebSearch 仅 Claude 模型可用                              │   │
 │  └─────────────────────────────────────────────────────────────────┘   │
 │                              │                                           │
 │                              ▼                                           │
@@ -145,9 +146,18 @@ python run_eval.py
 追问时直接输出问题，不调用工具。
 
 ### 2. 搜索语言
-**统一用英文搜索**，即使用户用中文提问（英文搜索结果质量更高）。
+- **优先英文搜索**（专业评测质量高）
+- **必要时中文补充**（国产品牌、国内价格、中文社区口碑）
 
-### 3. 搜索策略 - Agentic Search
+### 3. 搜索工具优先级
+| 模型 | WebSearch | tavily_search |
+|------|-----------|---------------|
+| Claude | ✅ 优先 | ✅ 备选/补充 |
+| Minimax | ❌ 不可用 | ✅ 主力 |
+
+代码通过 `is_claude_model()` 自动判断。
+
+### 4. 搜索策略 - Agentic Search
 
 **核心原则**：
 1. **信息不足 → 追问**
@@ -155,8 +165,6 @@ python run_eval.py
    - 每轮搜索基于上一轮的结果
    - 粒度从大到小：了解可选鞋款 → 深挖评测 → 对比 → 价格
    - 动态决策，不预定义固定轮数
-   - **Shopping 失败 → Tavily 降级查价格**
-   - **都失败 → 估算价格 + "请自行搜索"**
 
 **Tavily 限制**：最多 5 轮（免费版限制）。
 
@@ -169,12 +177,23 @@ python run_eval.py
 - 能判断就给明确结论，不要轻易说"有争议"
 - 真的无法判断时才在缺点里标注争议点
 
+**信息可信度判断**：
+- **来源优先级**：专业评测 > Reddit/论坛 > 电商评价 > 单一案例
+- **时效性**：近期评价 > 旧评价（跑鞋迭代快）
+- **一致性**：多人一致 > 个案
+
+**识别营销内容**（降低权重或忽略）：
+- 只说优点不提缺点
+- 过度使用"最好""完美""神器"等词
+- 来源是品牌官网或明显软文
+- 没有具体使用场景和数据支撑
+
 ### 6. Shopping 批量查询
 单次调用获取所有候选鞋款的价格和链接。
 
 ### 7. 降级策略
-- **Google Shopping 429** → 立即降级，提示用 Tavily 查价格
-- **Shopping 完全失败** → 估算价格范围 + "请自行搜索"
+- **Google Shopping 429** → 立即降级，用 Tavily 查价格
+- **Shopping 完全失败** → 估算价格范围 + 提供购物平台建议
 
 ### 工具参数
 ```python
@@ -197,10 +216,10 @@ google_shopping(queries: list[str], max_price?: int, min_price?: int)
 1-2 句关键需求
 
 ## 推荐方案
-**首选：鞋款名** - $价格
-- 推荐理由
+**首选：鞋款名** - $价格（价格仅供参考）
+- 推荐理由（引用来源）
 - 诚实缺点
-- 购买链接
+- 购买渠道：国内推荐京东/淘宝/得物，海外推荐 Amazon/Zappos/Running Warehouse
 
 **次选/备选**...
 
@@ -217,14 +236,14 @@ google_shopping(queries: list[str], max_price?: int, min_price?: int)
 
 | 配置项 | 值 | 说明 |
 |--------|----|-----|
-| model | `LLM_MODEL` 环境变量 | 代码默认值：`claude-sonnet-4-5-20250529` |
+| model | `LLM_MODEL` 环境变量 | 默认：`claude-sonnet-4-5-20250929` |
 | max_turns | 15 | Agent 最大迭代轮次 |
 
 ## 环境变量
 
 ```bash
 # .env（根目录）
-LLM_MODEL=MiniMax-M2.1                       # 当前使用 MiniMax 兼容接口
+# LLM_MODEL=MiniMax-M2.1                     # 可选：切换到 MiniMax（不支持 WebSearch）
 SERPAPI_KEY=xxx                              # Google Shopping (SerpAPI)
 TAVILY_API_KEY=xxx                           # Tavily 搜索
 LANGSMITH_API_KEY=xxx                        # LangSmith 追踪
@@ -232,6 +251,9 @@ LANGSMITH_TRACING=true
 LANGCHAIN_PROJECT=runai-eval
 ```
 
-**注意**：当前配置使用 MiniMax API 兼容接口，模型为 `MiniMax-M2.1`。如需使用 Anthropic 官方 API，去掉 `LLM_MODEL` 变量即可使用代码默认值。
+**模型切换**：
+- 默认使用 Claude Sonnet 4.5（支持 WebSearch）
+- 设置 `LLM_MODEL=MiniMax-M2.1` 切换到 MiniMax（仅支持 tavily_search）
+- 代码通过 `is_claude_model()` 自动判断可用工具
 
 [PROTOCOL]: 变更时更新此头部，然后检查 /CLAUDE.md
