@@ -1,0 +1,86 @@
+[
+  {
+    "case_id": 2,
+    "category": "小体重软弹",
+    "query": "女生，体重48kg，跑得不快，买过一些顶级跑鞋但觉得底太硬踩不动。",
+    "expected": [
+      "NB FuelCell Rebel v4",
+      "Hoka Clifton 9",
+      "Nike Pegasus 41"
+    ],
+    "result": null,
+    "duration_seconds": 63.692319,
+    "success": false,
+    "error": "unhandled errors in a TaskGroup (1 sub-exception)"
+  },
+  {
+    "case_id": 7,
+    "category": "足型-高足弓",
+    "query": "高足弓，脚背比较高，鞋底总是外侧磨损特别严重。",
+    "expected": [
+      "Brooks Glycerin 21",
+      "ASICS Gel-Nimbus 26",
+      "Mizuno Wave Sky 7"
+    ],
+    "result": "根据你的情况（高足弓+脚背高+外侧磨损严重+75kg体重+800-900元预算），你需要**高缓震中性鞋**，避免稳定系。\n\n## 需求分析\n高足弓导致外翻不足（supination），冲击力集中在外侧，需要柔软缓震分散压力，同时鞋面要有足够高度容纳脚背。\n\n## 推荐方案\n\n### 首选：New Balance 880 v15 - 约¥900-1000（价格仅供参考）\n- **推荐理由**：Fresh Foam X中底提供充足缓震（堆高39.7mm），中性设计不干涉足部自然运动，适合高足弓日常训练。Doctors of Running评价其为\"maximal daily trainer for walking and running\"，Believe in the Run称其\"不再是小弟\"（指性能提升明显）\n- **诚实缺点**：比1080 v14稍硬一些，响应性一般，不适合速度训练\n- 购买链接：请自行搜索国内电商平台\n\n### 次选：ASICS Cumulus 27 - 约¥800-950（价格仅供参考）\n- **推荐理由**：Solereview明确推荐为\"高足弓日常训练鞋\"，中性支撑+FlyteFoam缓震，专为外翻不足设计。RunRepeat评为\"最佳外翻不足跑鞋\"之一\n- **诚实缺点**：鞋面透气性一般，夏季可能偏闷\n- 购买链接：请自行搜索\n\n### 备选：Brooks Ghost 16 - 约¥850-1000（价格仅供参考）\n- **推荐理由**：经典中性鞋，DNA Loft中底柔软舒适，适合高足弓。多个来源推荐用于外翻不足（如fitmyfeet.com）\n- **诚实缺点**：缓震量不如Glycerin系列，75kg体重可能觉得不够软\n- 购买链接：请自行搜索\n\n**如果只买一双，选New Balance 880 v15**。它在你的预算内，缓震量充足，中性设计最适合高足弓+外侧磨损问题。\n\n## 避坑提示\n- **不要选稳定系**（如Brooks Adrenaline、ASICS Kayano）：会强制内旋，加重外侧磨损\n- **避免过硬鞋款**：高足弓接触面小，硬鞋会让冲击更集中\n- **注意鞋面高度**：脚背高需要宽松鞋面，试穿时确认不压脚背\n\n## 信息来源\n- [Solereview - 高足弓最佳跑鞋](https://www.solereview.com/best-running-shoes-for-high-arches/)\n- [RunRepeat - 最佳外翻不足跑鞋](https://runrepeat.com/guides/best-underpronation-running-shoes)\n- [Doctors of Running - NB 880 v15评测](https://www.doctorsofrunning.com/2025/01/new-balance-fresh-foam-x-880-v15-review.html)\n- [Believe in the Run - NB 880 v15评测](https://believeintherun.com/shoe-reviews/new-balance-fresh-foam-880v15-review/)\n- [Reddit讨论 - Brooks外翻不足推荐](https://www.reddit.com/r/brooks/comments/1alrvfo/ghost_max_or_glycerin_gts_21/)",
+    "duration_seconds": 66.025265,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 10,
+    "category": "后跟落地-高坡差",
+    "query": "后跟落地跑法，而且落地很重，有没有后跟缓冲特别好的？",
+    "expected": [
+      "Mizuno Wave Rider 27/28",
+      "Brooks Ghost 16",
+      "Nike Structure 25"
+    ],
+    "result": "好的，信息已经足够。现在让我总结推荐方案：\n\n---\n\n## 需求分析\n你78kg体重，后跟落地且落地重，同时有膝盖疼痛。需要注意：**后跟重落地+膝盖疼痛的组合，过度缓震可能加重膝盖负担**（来源显示高缓震鞋会增加腿部僵硬度，反而把冲击传导到膝盖）。建议选择**高落差+厚实但不过软的缓震**，同时考虑逐步改善落地方式。\n\n---\n\n## 推荐方案\n\n### 首选：Nike Vomero 18 - 约900-1000元（价格仅供参考）\n- **推荐理由**：\n  - 后跟堆高达42.5mm，比上代增加8.6mm，专为后跟落地设计（RunRepeat实测数据）\n  - 缓震\"软而不糊\"，有足够回弹避免过度下陷（Believe in the Run评价）\n  - 高落差设计，适合你目前的后跟落地习惯\n  - 78kg体重在其承重范围内，不会过早压塌\n  \n- **诚实缺点**：\n  - 鞋身较重，不适合快速配速\n  - 过于柔软可能让部分人感觉不稳定\n  \n- **购买**：请自行搜索Nike官网或运动专卖店\n\n---\n\n### 次选：Asics Gel Nimbus 26 - 约800-950元（价格仅供参考）\n- **推荐理由**：\n  - 后跟40.4mm堆高+8.4mm落差，后跟有PureGel缓震单元专门吸收冲击（Doctors of Running评测）\n  - 比Vomero 18稍硬一些，对78kg体重支撑更持久\n  - 适合慢跑训练的稳定平台\n  \n- **诚实缺点**：\n  - 26代更新较弱，性价比不如前代（Solereview评价）\n  - 鞋面偏紧，需试穿确认尺码\n  \n- **购买**：请自行搜索Asics官网或运动专卖店\n\n---\n\n### 备选：Brooks Glycerin 21 - 约850-1000元（价格仅供参考）\n- **推荐理由**：\n  - DNA LOFT v3缓震增加2mm，柔软度高（官方数据）\n  - 适合80kg以上跑者，你78kg使用寿命会更长（i-Run推荐）\n  - 无rocker设计，脚感更直接，适合习惯传统跑鞋的人\n  \n- **诚实缺点**：\n  - 缓震偏软，可能不如Vomero 18对膝盖友好\n  - 重量较大，回弹感一般\n  \n- **购买**：请自行搜索Brooks官网或运动专卖店\n\n---\n\n## 如果只买一双，选 Nike Vomero 18\n理由：它的后跟堆高和缓震特性最匹配你\"后跟重落地\"的需求，同时不会过软导致膝盖负担加重。\n\n---\n\n## 避坑提示\n1. **避免过软的max cushion鞋**：如Hoka Bondi 8/9、New Balance 1080v13等，这些鞋对后跟重落地者可能导致膝盖过度受力（Reddit多位用户反馈Bondi加重膝盖疼痛，1080v13有用户反馈\"后跟压缩过度可能导致膝盖过伸\"）\n\n2. **长期建议**：考虑逐步过渡到中前脚掌落地，可以减轻膝盖压力。RunRepeat的膝盖疼痛指南建议选择**低落差+前掌高缓震**的鞋来引导落地方式改变，但这需要循序渐进。\n\n3. **膝盖疼痛位置**：如果是膝盖内侧疼，可能还需要稳定性支撑鞋款（如Asics Kayano或Brooks Adrenaline GTS系列）\n\n---\n\n## 信息来源\n- [RunRepeat - Nike Vomero 18实测](https://runrepeat.com/nike-vomero-18)\n- [Believe in the Run - Nike Vomero 18评测](https://believeintherun.com/shoe-reviews/nike-vomero-18-review/)\n- [RunRepeat - 后跟落地最佳跑鞋指南](https://runrepeat.com/guides/best-heel-strike-running-shoes)\n- [RunRepeat - 膝盖疼痛跑鞋指南](https://runrepeat.com/guides/best-knee-pain-running-shoes)\n- [Solereview - Asics Nimbus 26评测](https://www.solereview.com/asics-nimbus-26-review/)\n- [Reddit r/RunningShoeGeeks - 多个用户讨论](https://www.reddit.com/r/RunningShoeGeeks/)",
+    "duration_seconds": 82.480039,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 22,
+    "category": "足型-拇外翻",
+    "query": "有拇外翻，大脚趾根部骨头突出，穿鞋面硬的会疼。",
+    "expected": [
+      "Altra Rivera",
+      "Hoka Bondi(Wide版)",
+      "Topo Athletic Phantom"
+    ],
+    "result": "信息已经足够，现在给你推荐方案：\n\n---\n\n**需求分析**  \n拇外翻+大脚趾根部骨头突出，需要宽松鞋头和柔软鞋面，避免硬质材料压迫。64kg体重适中，日常慢跑需要舒适缓震。\n\n---\n\n## 推荐方案\n\n**首选：Topo Atmos（约 ¥900-1100，价格仅供参考）**  \n- **推荐理由**：专为拇外翻设计的解剖型宽鞋头，多位用户反馈\"完美容纳拇外翻且不痛\"（Zappos用户评价），鞋面柔软透气，中足和后跟包裹稳定，5mm落差适合日常慢跑，顶级缓震（41mm堆高）。RunRepeat和Doctors of Running均将其评为拇外翻最佳跑鞋。\n- **诚实缺点**：鞋头宽松可能需要适应期，部分用户反馈前掌稍显厚重。\n- **购买**：请自行搜索\"Topo Atmos\"购买链接（国内可能需海淘或代购）\n\n---\n\n**次选：Hoka Bondi 9（约 ¥1200-1400，价格仅供参考）**  \n- **推荐理由**：前掌宽松（Facebook跑步群多人推荐给拇外翻患者），鞋面采用柔软工程网布，顶级缓震（41.3mm堆高），适合长时间慢跑。Doctors of Running评价其\"对轻度足趾问题友好\"。\n- **诚实缺点**：略超预算，鞋身较重（约300g），不适合速度训练。\n- **购买**：请自行搜索\"Hoka Bondi 9\"购买链接\n\n---\n\n**备选：Brooks Ghost 17 Wide版（约 ¥800-1000，价格仅供参考）**  \n- **推荐理由**：提供2E/4E宽楦版本，鞋面柔软透明网布，DNA Loft v3缓震舒适，Believe in the Run评价其为\"最佳宽脚Brooks鞋款\"。\n- **诚实缺点**：鞋头宽度不如Topo Atmos，需确认购买Wide版本。\n- **购买**：请自行搜索\"Brooks Ghost 17 Wide\"购买链接\n\n---\n\n**如果只买一双，选 Topo Atmos**——专为拇外翻设计，用户实测反馈最好，价格也在预算内。\n\n---\n\n## 避坑提示\n- **避免**：Asics Novablast系列（鞋头偏窄）、Nike Pegasus系列（鞋面偏硬）、Saucony Endorphin系列（竞速鞋型窄）\n- **试穿建议**：务必试穿后确认大脚趾根部无压迫感，鞋头应有1-1.5cm余量\n- **鞋带系法**：可跳过第一排鞋孔减少前掌压力（RunRepeat建议）\n\n---\n\n## 信息来源\n- [RunRepeat - 2025拇外翻最佳跑鞋](https://runrepeat.com/guides/best-bunions-running-shoes)\n- [Zappos用户评价 - Topo Atmos](https://www.zappos.com/product/review/9932273)\n- [Doctors of Running - Hoka Bondi 9评测](https://www.doctorsofrunning.com/2025/01/hoka-bondi-9-review-2025.html)\n- [Believe in the Run - 宽脚跑鞋推荐](https://believeintherun.com/shoe-reviews/best-wide-foot-running-shoes/)",
+    "duration_seconds": 64.775755,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 26,
+    "category": "学生预算300",
+    "query": "预算只有300块，大学生，想买双耐穿的平时跑跑操场。",
+    "expected": [
+      "361°飞燃ET/爆沫",
+      "特步2000公里",
+      "安踏马赫4"
+    ],
+    "result": "好的，信息已经足够了。根据你的情况（男生、69kg、正常脚型、每周10km以下、预算300元），我来给你推荐几款耐穿的入门跑鞋。\n\n## 需求分析\n你是轻度跑者，主要在操场慢跑，对性能要求不高，但需要耐穿性好、性价比高的入门款。\n\n## 推荐方案\n\n**首选：Adidas Questar 3 - 约300-400元**（价格仅供参考）\n- **推荐理由**：RunRepeat实验室测试显示，这是2025年最佳廉价跑鞋，外底、鞋头、后跟区域耐久性都很扎实，10.5mm落差适合初学者，缓震适中不软塌（来源：RunRepeat实验室切鞋测试）\n- **诚实缺点**：鞋楦偏窄（前掌宽度114.3mm），如果你脚宽可能会挤\n- 购买链接：请在京东/天猫搜索\"Adidas Questar 3\"\n\n**次选：Asics Gel-Contend 9 - 约350-450元**（价格仅供参考）\n- **推荐理由**：外底覆盖双层橡胶，比同价位的Gel-Excite更耐磨，适合混合跑步和力量训练（来源：RunningShoeGuru评测）\n- **诚实缺点**：缓震偏薄，鞋面耐久性一般（RunRepeat实验室发现鞋面耐久性不足）\n- 购买链接：请在京东/天猫搜索\"Asics Gel-Contend 9\"\n\n**备选：Nike Revolution 8 - 约300-400元**（价格仅供参考）\n- **推荐理由**：相比7代重量更轻、能量反馈改善、抓地力可靠、耐久性扎实（来源：RunRepeat 2025评测）\n- **诚实缺点**：鞋楦偏窄，不适合宽脚\n- 购买链接：请在京东/天猫搜索\"Nike Revolution 8\"\n\n**如果只买一双，选 Adidas Questar 3**。它在这个价位段平衡了耐久性、舒适度和性价比，RunRepeat实验室测试证明它是最佳廉价跑鞋。\n\n## 避坑提示\n- 避开Adidas Duramo SL、Nike Downshifter等更低端型号，Reddit用户反馈它们耐久性\"中等偏下\"，不如多花50元买Questar 3或Revolution 8（来源：Reddit r/AskRunningShoeGeeks）\n- 如果你脚宽，Adidas和Nike的入门款都偏窄，建议去实体店试穿或考虑Asics（亚瑟士楦型相对宽一些）\n\n## 信息来源\n- [RunRepeat - Adidas Questar 3实验室评测](https://runrepeat.com/adidas-questar-3)\n- [RunRepeat - Nike Revolution 8实验室评测](https://runrepeat.com/nike-revolution-8)\n- [RunningShoeGuru - Asics Gel-Contend 9评测](https://www.runningshoesguru.com/reviews/road/asics-gel-contend-9-review/)\n- [Reddit r/AskRunningShoeGeeks - 预算跑鞋讨论](https://www.reddit.com/r/AskRunningShoeGeeks/comments/1mpw2mh/looking_for_advice_on_budget_shoes_for_a_casual/)",
+    "duration_seconds": 54.190735,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 29,
+    "category": "跟腱炎康复",
+    "query": "以前受过伤，跟腱炎刚恢复，医生建议不要穿太软也不要太平的鞋。",
+    "expected": [
+      "Mizuno Wave Rider 28",
+      "Brooks Ghost 16",
+      "Adidas Solar Glide"
+    ],
+    "result": null,
+    "duration_seconds": 62.627941,
+    "success": false,
+    "error": "unhandled errors in a TaskGroup (1 sub-exception)"
+  }
+]

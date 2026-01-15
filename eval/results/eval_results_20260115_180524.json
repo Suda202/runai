@@ -1,0 +1,86 @@
+[
+  {
+    "case_id": 2,
+    "category": "小体重软弹",
+    "query": "女生，体重48kg，跑得不快，买过一些顶级跑鞋但觉得底太硬踩不动。",
+    "expected": [
+      "NB FuelCell Rebel v4",
+      "Hoka Clifton 9",
+      "Nike Pegasus 41"
+    ],
+    "result": "根据我搜索到的专业评测，你的需求是**柔软易推动的中底**，这里是我的推荐：\n\n## 需求分析\n你体重48kg属于轻量级跑者，顶级跑鞋（如碳板竞速鞋）的硬质中底确实需要更大体重才能压缩激活。你需要的是**柔软、有弹性、容易推动**的日常训练鞋。\n\n---\n\n## 推荐方案\n\n### 首选：New Balance 1080 v14 - 约900-1100元（价格仅供参考）\n**推荐理由：**\n- **最软的日常训练鞋之一**（Solereview评为\"Best for soft cushioning\"）\n- Fresh Foam X中底非常柔软，轻量跑者能轻松压缩\n- 有明显的rocker弧度设计，帮助推进，不需要太大力气\n- 前掌28.9mm厚度提供充足缓震，但不会过于笨重\n\n**诚实缺点：**\n- v14比v13重了一些（RunRepeat实测指出\"重量增加是退步\"）\n- 中足偏宽，如果你脚窄可能包裹感不够\n\n**购买：** 请自行搜索\"New Balance 1080 v14 女款\"\n\n---\n\n### 次选：Saucony Triumph 22/23 - 约800-1000元（价格仅供参考）\n**推荐理由：**\n- 使用PWRRUN PB泡棉（PEBA基材），**软且有弹性**\n- 多位评测者形容为\"soft and bouncy\"、\"smooth as butter\"\n- Triumph 23比22更软（Fleet Feet评测：\"softer feel\"）\n- 前掌28.9mm缓震，和1080 v14同级别\n\n**诚实缺点：**\n- 有些人觉得太软导致稳定性略差（Reddit用户反馈）\n- 鞋身偏大，可能需要小半码\n\n**购买：** 请自行搜索\"Saucony Triumph 22/23 女款\"\n\n---\n\n### 备选：Brooks Glycerin 22 - 约900-1200元（价格仅供参考）\n**推荐理由：**\n- DNA Tuned双密度中底，**软但不失支撑**\n- RunRepeat和多个评测推荐为\"plush and durable daily trainer\"\n- 适合需要一点点稳定性的跑者\n\n**诚实缺点：**\n- 比1080和Triumph稍微硬一点点（但仍属柔软级别）\n- 重量回到10.35盎司，不算最轻\n\n**购买：** 请自行搜索\"Brooks Glycerin 22 女款\"\n\n---\n\n## 如果只买一双，选 **New Balance 1080 v14**\n它是专业评测中公认最软的日常训练鞋，rocker设计能帮你省力推进，最适合你\"踩不动硬底\"的困扰。\n\n---\n\n## 避坑提示\n❌ **不要选ASICS Nimbus 27**：虽然它很软，但Reddit多位轻量跑者反馈\"太软导致脚部需要额外稳定，反而累\"（r/RunningShoeGeeks）\n\n❌ **不要选碳板竞速鞋**（如Endorphin Pro系列）：硬质中底需要60kg+体重才能有效压缩\n\n---\n\n## 信息来源\n- [RunRepeat - Best Soft Cushioned Running Shoe](https://runrepeat.com/guides/best-cushioned-running-shoes)\n- [Solereview - New Balance 1080v14 Review](https://www.solereview.com/new-balance-1080v14-review/)\n- [Doctors of Running - Saucony Triumph 22 Review](https://www.doctorsofrunning.com/2024/05/saucony-triumph-22-review-2024.html)\n- [Reddit r/RunningShoeGeeks - ASICS Nimbus讨论](https://www.reddit.com/r/RunningShoeGeeks/comments/1fy28x8/asics_nimbus_27/)\n- [Fleet Feet - Saucony Triumph 23 Review](https://www.fleetfeet.com/blog/saucony-triumph-23-review-same-cushion-softer-feel)",
+    "duration_seconds": 147.262326,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 7,
+    "category": "足型-高足弓",
+    "query": "高足弓，脚背比较高，鞋底总是外侧磨损特别严重。",
+    "expected": [
+      "Brooks Glycerin 21",
+      "ASICS Gel-Nimbus 26",
+      "Mizuno Wave Sky 7"
+    ],
+    "result": "## 推荐方案\n\n**首选：Brooks Glycerin 22 - 约¥900-1000**（价格仅供参考）\n- **推荐理由**：DNA Tuned双密度中底提供柔软缓震同时保持稳定性，非常适合高足弓+外侧磨损问题。Doctors of Running评测指出\"尽管是中性鞋，Glycerin 22跑起来很稳定\"，RunRepeat实验室测试显示缓震性能优秀。中性设计不会过度干预步态，让你的足外翻自然落地。\n- **诚实缺点**：重量增加到295克（10.35盎司），比上一代略重；部分用户反馈前掌偏窄，如果你脚掌宽需要试穿确认。\n- 购买链接：请在天猫/京东搜索\"Brooks Glycerin 22\"或海淘官网\n\n---\n\n**次选：New Balance 1080 V14 - 约¥850-950**（价格仅供参考）\n- **推荐理由**：Solereview明确指出\"1080一直是足外翻者的好选择，因为它的中底不会试图矫正你的步态\"。Fresh Foam X提供充足缓震，适合75kg体重。楦型相对宽松，适合脚背高的情况。\n- **诚实缺点**：V14版本为了增强稳定性增加了重量（约285克），有评测认为牺牲了一些轻盈感；部分用户反馈需要磨合期。\n- 购买链接：请在天猫/京东搜索\"New Balance 1080 V14\"\n\n---\n\n**备选：ASICS Gel Nimbus 26 - 约¥800-900**（价格仅供参考）\n- **推荐理由**：高缓震中性鞋，Reddit用户反馈\"所有疼痛都消失了，在中性训练鞋中算是偏稳定的\"。适合高足弓，8mm落差适中。Doctors of Running评测确认\"这是一双高缓震中性训练鞋，骑乘感比25代更顺滑\"。\n- **诚实缺点**：比前代略重，部分跑者觉得响应性不如竞品；Believe in the Run评测提到\"不是每个人都会喜欢这次更新\"。\n- 购买链接：请在天猫/京东搜索\"ASICS Gel Nimbus 26\"\n\n---\n\n## 如果只买一双，选 Brooks Glycerin 22\n理由：在你的预算内，它最好地平衡了高足弓所需的缓震、外侧磨损问题所需的稳定性，以及日常训练的舒适性。多个专业评测一致认可其\"中性但稳定\"的特性，正是你这种情况的理想选择。\n\n---\n\n## 避坑提示\n1. **不要选稳定型/支撑型鞋款**（如Brooks Adrenaline、ASICS Kayano）：你是足外翻，这类鞋会加剧外侧磨损（来源：Nike官方指南\"足外翻者需要中性鞋，避免过度矫正\"）\n2. **试穿时注意脚背空间**：高足弓+脚背高容易压迫，Glycerin 22前掌偏窄需特别注意\n3. **考虑宽楦版本**：如果脚掌也宽，New Balance 1080有2E/4E宽度可选\n\n---\n\n## 信息来源\n- [RunRepeat - Best Running Shoes for High Arches 2025](https://runrepeat.com/guides/best-high-arch-running-shoes)\n- [Solereview - Best Running Shoes for Supination](https://www.solereview.com/best-running-shoes-for-supination-or-underpronation/)\n- [Doctors of Running - Brooks Glycerin 22 Review](https://www.doctorsofrunning.com/2025/05/brooks-glycerin-22-review-2025.html)\n- [Believe in the Run - ASICS Gel Nimbus 26 Review](https://believeintherun.com/shoe-reviews/asics-gel-nimbus-26-review/)\n- [Reddit r/running - Shoe Suggestions for Underpronation](https://www.reddit.com/r/running/comments/2b7zdp/shoe_suggestions_for_underpronationhigh_arches/)",
+    "duration_seconds": 68.839087,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 10,
+    "category": "后跟落地-高坡差",
+    "query": "后跟落地跑法，而且落地很重，有没有后跟缓冲特别好的？",
+    "expected": [
+      "Mizuno Wave Rider 27/28",
+      "Brooks Ghost 16",
+      "Nike Structure 25"
+    ],
+    "result": "根据我搜索到的专业评测和用户反馈，我现在可以给出推荐了：\n\n## 需求分析\n78公斤体重 + 后跟落地 + 落地很重，需要**后跟区域超强缓震** + **耐久性好** + **日常训练适用**的跑鞋。\n\n---\n\n## 推荐方案\n\n### 首选：Nike Vomero 18 - 约800-950元（价格仅供参考）\n**推荐理由：**\n- **后跟缓震顶级**：44mm后跟堆高，Nike最厚的跑鞋，双密度中底专为重后跟落地设计（来源：solereview.com评测）\n- **78kg体重完美适配**：Reddit用户反馈\"100kg重跑者穿200公里仍像新鞋，后跟缓震出色\"（r/AskRunningShoeGeeks）\n- **日常训练耐用**：比Vomero Plus更耐久，适合高频训练（r/RunningShoeGeeks）\n\n**诚实缺点：**\n- 鞋身偏重（约300g+），不适合追求速度\n- 透气性一般\n\n**购买建议：** Nike官网/天猫旗舰店，建议试穿确认尺码\n\n---\n\n### 次选：Asics Gel Nimbus 26/27 - 约900-1100元（价格仅供参考）\n**推荐理由：**\n- **传统可靠**：40.4mm后跟堆高 + Gel胶后跟缓震，专为后跟落地设计（RunRepeat实验室测试）\n- **耐久性强**：ASICS传统强项，适合日常高频训练（marathonhandbook.com）\n- **稳定性好**：比Vomero更稳，适合需要一定支撑的跑者\n\n**诚实缺点：**\n- 脚感偏硬，不如Vomero柔软\n- 价格可能超预算（Nimbus 27）\n\n**购买建议：** Nimbus 26打折款性价比更高，请自行搜索电商平台\n\n---\n\n### 备选：Brooks Glycerin 21 - 约850-1000元（价格仅供参考）\n**推荐理由：**\n- **后跟缓震柔软**：Reddit用户对比\"后跟比Vomero更软，下沉感更明显\"（r/RunningShoeGeeks）\n- **稳定性更强**：比Vomero更稳定，适合需要控制的重后跟落地\n- **耐久一致**：缓震衰减慢（weartesters.com评测）\n\n**诚实缺点：**\n- 重量较大\n- 脚感不如Vomero活泼\n\n**购买建议：** 请自行搜索天猫/京东\n\n---\n\n## 如果只买一双，选 **Nike Vomero 18**\n理由：你的78kg体重 + 重后跟落地 + 千元预算，Vomero 18的44mm后跟堆高和双密度缓震是最直接的解决方案，且有100kg重跑者的实战验证。\n\n---\n\n## 避坑提示\n1. **不推荐Hoka Bondi 8**：虽然堆高厚，但Reddit重跑者反馈\"缓震不如预期，更适合走路而非跑步\"，且鞋身过重（r/RunningShoeGeeks 500km评测）\n2. **落差选择**：后跟落地建议选8-10mm落差（高落差），避免低落差鞋款增加跟腱压力\n3. **试穿必要**：78kg体重对鞋子压缩明显，务必试穿确认后跟缓震是否足够\n\n---\n\n## 信息来源\n- [Nike Vomero 18 专业评测 - solereview.com](https://www.solereview.com/nike-vomero-18-review/)\n- [100kg重跑者Vomero使用反馈 - Reddit](https://www.reddit.com/r/AskRunningShoeGeeks/comments/1p9j4pq/heavy_runner_100_kg_220_lb_187_cm_62_training_for/)\n- [Hoka Bondi 8重跑者500km评测 - Reddit](https://www.reddit.com/r/RunningShoeGeeks/comments/1da64cl/review_500_km_on_hoka_bondi_8_from_a_heavy_runner/)\n- [Asics Nimbus 26实验室测试 - RunRepeat](https://runrepeat.com/asics-gel-nimbus-26)\n- [Brooks Glycerin 21对比评测 - weartesters.com](https://weartesters.com/brooks-glycerin-21-performance-review/)",
+    "duration_seconds": 92.507754,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 22,
+    "category": "足型-拇外翻",
+    "query": "有拇外翻，大脚趾根部骨头突出，穿鞋面硬的会疼。",
+    "expected": [
+      "Altra Rivera",
+      "Hoka Bondi(Wide版)",
+      "Topo Athletic Phantom"
+    ],
+    "result": "## 需求分析\n拇外翻+大脚趾根部骨头突出，需要鞋头宽松、鞋面柔软的跑鞋，避免硬质鞋面压迫。64kg体重，日常慢跑，需要足够缓震但不需要过度稳定性。\n\n---\n\n## 推荐方案\n\n**首选：Hoka Bondi 9 - 约¥800-1000（价格仅供参考）**\n- **推荐理由**：Reddit r/bunions 板块多位拇外翻患者强烈推荐，有用户表示\"穿 Bondi Wide 版本后完全无痛，脚部关节炎也改善了\"（来源：Reddit）。宽楦版本鞋头空间充裕，41.3mm 超厚缓震适合你的体重，鞋面采用柔软工程网面，不会压迫突出骨头。\n- **诚实缺点**：鞋身较厚重，透气性一般，夏季可能偏闷热。\n- **购买建议**：务必选 Wide 宽楦版本，国内电商平台或官网可购买。\n\n---\n\n**次选：Brooks Glycerin 22 - 约¥900-1200（价格仅供参考）**\n- **推荐理由**：专业评测指出其鞋面采用柔软针织材料，对拇外翻友好（来源：luckyfeetshoes.com）。DNA Loft v3 缓震柔软舒适，适合日常慢跑。\n- **诚实缺点**：鞋头宽度不如 Hoka Bondi Wide，如果你的拇外翻较严重可能仍有轻微压迫感。\n- **购买建议**：试穿时注意鞋头是否有压迫感。\n\n---\n\n**备选：New Balance Fresh Foam More v5 - 约¥1000+（价格仅供参考）**\n- **推荐理由**：New Balance 宽楦系列（2E/4E）对拇外翻患者友好（来源：Reddit r/bunions），Fresh Foam More v5 缓震充足，鞋头空间宽敞。\n- **诚实缺点**：有用户反馈鞋面中部系带区域仍可能压迫拇外翻位置（来源：Reddit），需试穿确认。\n- **购买建议**：选 2E 或 4E 宽楦版本。\n\n---\n\n## 如果只买一双，选 Hoka Bondi 9 Wide\n理由：拇外翻患者实测反馈最好，鞋头空间+柔软鞋面+超厚缓震三重保障，最适合你的情况。\n\n---\n\n## 避坑提示\n- **不要买标准楦**：即使是\"对拇外翻友好\"的鞋款，标准楦仍可能压迫，务必选 Wide/2E 版本。\n- **避开硬质鞋面**：如 Nike Pegasus、Adidas Ultraboost 等鞋面较硬的款式会加剧疼痛（来源：多个拇外翻患者反馈）。\n- **试穿时重点检查**：大脚趾根部是否有任何压迫感，哪怕轻微也不要妥协。\n\n---\n\n## 信息来源\n- [Reddit r/bunions - Hoka Bondi 讨论](https://www.reddit.com/r/bunions/comments/1ebejcj/hokas_or_barefoot_shoes/)\n- [RunRepeat - Hoka Bondi 9 评测](https://runrepeat.com/hoka-bondi-9)\n- [Lucky Feet Shoes - 拇外翻跑鞋推荐](https://luckyfeetshoes.com/blogs/blog/top-8-best-running-shoes-for-bunions-reviewed)\n- [Reddit - New Balance 宽楦讨论](https://www.reddit.com/r/bunions/comments/1bdxvav/new_balance_width/)",
+    "duration_seconds": 63.803898,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 26,
+    "category": "学生预算300",
+    "query": "预算只有300块，大学生，想买双耐穿的平时跑跑操场。",
+    "expected": [
+      "361°飞燃ET/爆沫",
+      "特步2000公里",
+      "安踏马赫4"
+    ],
+    "result": "根据搜索结果，我给你推荐以下方案：\n\n## 需求分析\n男生，69kg中等体重，正常脚型，每周10km以下操场慢跑，预算300元。需要耐穿、性价比高的入门跑鞋。\n\n## 推荐方案\n\n**首选：Adidas Questar 3 - 约250-350元（价格仅供参考）**\n- 推荐理由：RunRepeat实验室测试显示它是\"最佳平价跑鞋\"，缓震性能在同价位最好。Reddit用户反馈\"穿了6个月，每周跑3次3英里，没问题\"。堆高34-35mm，适合你这种体重的入门跑者。\n- 诚实缺点：外观比较朴素，不如专业跑鞋轻盈，更适合慢跑而非速度训练。\n- 购买链接：请在淘宝/京东搜索\"Adidas Questar 3\"\n\n**次选：ASICS Gel Excite 11 - 约350-450元（价格仅供参考）**\n- 推荐理由：RunRepeat测试显示堆高38.2mm，接近顶级缓震水平但价格不到100美元。鞋楦比普通跑鞋宽，适合长时间穿着。抓地力和稳定性都很好，\"非常适合初学者\"。\n- 诚实缺点：落差12mm偏高，更适合后跟着地的跑者；稍微超预算。\n- 购买链接：请自行搜索电商平台\n\n**如果只买一双，选Adidas Questar 3**。它在300元价位耐久性和缓震平衡最好，Reddit真实用户验证了耐穿性。\n\n## 避坑提示\n- 避开Adidas Duramo Speed：Reddit用户反馈\"不适合跑步，只能偶尔跑1英里，更适合健身房\"\n- 300元价位不要追求轻量化或碳板，耐久性才是王道\n- 操场塑胶跑道对鞋底磨损较小，这两款都能穿1年以上\n\n## 信息来源\n- [RunRepeat - Best Cheap Running Shoes 2025](https://runrepeat.com/guides/best-cheap-running-shoes)\n- [RunRepeat - ASICS Gel Excite 11 Lab Review](https://runrepeat.com/asics-gel-excite-11)\n- [Reddit - Adidas Questar 3 User Review](https://www.reddit.com/r/frugalmalefashion/comments/1hp4zt3/adidas_questar_3_running_shoes_inkolive_was_80/)",
+    "duration_seconds": 74.417677,
+    "success": true,
+    "error": null
+  },
+  {
+    "case_id": 29,
+    "category": "跟腱炎康复",
+    "query": "以前受过伤，跟腱炎刚恢复，医生建议不要穿太软也不要太平的鞋。",
+    "expected": [
+      "Mizuno Wave Rider 28",
+      "Brooks Ghost 16",
+      "Adidas Solar Glide"
+    ],
+    "result": "根据我搜索到的信息，现在可以给出推荐了。\n\n---\n\n**需求分析**\n你72kg体重，日常慢跑/恢复跑，跟腱炎刚恢复，医生建议\"不要太软也不要太平\"。这意味着需要：**中等硬度缓震 + 8-12mm落差 + 稳定支撑**，避免过软的max cushion鞋和低落差鞋款。\n\n---\n\n## 推荐方案\n\n### 首选：Brooks Adrenaline GTS 24 - 约800-900元（价格仅供参考）\n- **推荐理由**：\n  - 12mm落差，符合医生建议的\"不要太平\"（来源：Doctors of Running）\n  - 中等硬度DNA LOFT v3缓震，不会过软（来源：RunRepeat）\n  - GuideRails稳定系统提供温和支撑，保护跟腱免受过度内旋压力（来源：Brooks官方）\n  - 专业机构明确推荐用于跟腱炎恢复：\"12mm heel-to-toe drop = Less strain, faster recovery\"（来源：Instagram @runningphysio）\n  - 坚固后跟杯防止足部过度移动，减少跟腱负担（来源：Believe in the Run）\n\n- **诚实缺点**：\n  - 有个别用户反馈GTS 24引发跟腱不适，但多数是因为从低落差鞋突然换到12mm导致（来源：Reddit r/brooks）\n  - 建议循序渐进增加穿着时间\n\n- **购买链接**：请自行在京东/天猫/跑步装备店搜索\n\n---\n\n### 次选：Asics GT-2000 13 - 约700-850元（价格仅供参考）\n- **推荐理由**：\n  - 8mm落差，比Adrenaline稍低但仍符合医生建议（来源：Doctors of Running）\n  - FF BLAST PLUS中底，硬度适中不过软（来源：RunRepeat实验室测试）\n  - 3D GUIDANCE SYSTEM提供温和稳定性，不会过度干预（来源：Doctors of Running）\n  - 比GTS 24轻约30克，适合日常训练（来源：RunRepeat）\n\n- **诚实缺点**：\n  - 能量回弹较低，不适合速度训练（来源：Doctors of Running团队评测）\n  - 前掌略窄，如果脚宽可能需要宽版\n\n- **购买链接**：请自行搜索\n\n---\n\n### 备选：Mizuno Wave Rider 28 - 约750-900元（价格仅供参考）\n- **推荐理由**：\n  - 12mm落差，传统高落差设计（来源：RunRepeat）\n  - Wave Plate提供独特的机械稳定性，硬度适中（来源：Doctors of Running）\n  - 后跟杯设计特别照顾跟腱，有填充但不压迫（来源：Running Shoes Guru）\n  - 有用户明确表示\"跟腱受伤后换Wave Rider效果很好\"（来源：Reddit r/RunningShoeGeeks）\n\n- **诚实缺点**：\n  - 偏传统硬朗，缓震感不如前两款柔软\n  - 鞋楦偏窄，亚洲版可能更合适\n\n- **购买链接**：请自行搜索\n\n---\n\n## 如果只买一双，选 **Brooks Adrenaline GTS 24**\n理由：12mm落差最符合\"不要太平\"的医嘱，稳定系统最成熟，专业机构明确推荐用于跟腱炎恢复，你的体重和用途都在它的最佳适用范围内。\n\n---\n\n## 避坑提示\n1. **避开这些鞋款**：\n   - Asics Novablast 5：有用户穿3周引发跟腱炎（来源：Reddit r/AskRunningShoeGeeks）\n   - Saucony Guide 17：有用户反馈后跟泡棉塌陷导致跟腱疼痛（来源：Reddit）\n   - 所有低落差鞋（<6mm）：不符合医生建议\n\n2. **试穿建议**：\n   - 先穿新鞋走路1-2周，再逐步过渡到跑步\n   - 如果跟腱有任何不适立即停止，不要硬撑\n\n3. **尺码提示**：\n   - Brooks通常标准码，GT-2000偏小半码，Wave Rider偏窄建议试宽版\n\n---\n\n## 信息来源\n- [Doctors of Running - Adrenaline GTS 24评测](https://www.doctorsofrunning.com)\n- [RunRepeat - GT-2000 13实验室测试](https://runrepeat.com/asics-gt-2000-13)\n- [Reddit r/RunningShoeGeeks - 用户真实反馈](https://www.reddit.com/r/RunningShoeGeeks/)\n- [Believe in the Run - 专业评测](https://believeintherun.com)",
+    "duration_seconds": 92.061683,
+    "success": true,
+    "error": null
+  }
+]

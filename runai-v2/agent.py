@@ -16,7 +16,6 @@ from claude_agent_sdk import (
     create_sdk_mcp_server,
 )
 from claude_agent_sdk.types import (
-    HookMatcher,
     PermissionResultAllow,
     ToolPermissionContext,
 )
@@ -171,11 +170,6 @@ def infer_answer_from_profile(header: str, options: list, profile: dict) -> str 
     return None
 
 
-async def dummy_hook(input_data, tool_use_id, context):
-    """必需的 workaround: 保持 stream 开放以支持 can_use_tool"""
-    return {"continue_": True}
-
-
 async def run_agent(
     user_query: str,
     mock_answers: dict[str, str] | None = None,
@@ -209,7 +203,6 @@ async def run_agent(
         allowed_tools=allowed,
         max_turns=MAX_TURNS,
         can_use_tool=create_ask_user_handler(mock_answers, profile),
-        hooks={"PreToolUse": [HookMatcher(matcher=None, hooks=[dummy_hook])]},
     )
 
     result_text = ""
