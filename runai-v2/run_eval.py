@@ -13,6 +13,7 @@ from dotenv import load_dotenv
 sys.path.insert(0, str(Path(__file__).parent))
 
 from agent import run_agent
+from eval.scorer import RunAIScorer
 
 # Load environment variables
 load_dotenv()
@@ -26,6 +27,8 @@ async def run_eval(test_cases_path: str, output_dir: str = None):
         data = json.load(f)
 
     cases = data.get("cases", [])
+    scorer = RunAIScorer()
+
     print(f"\n{'#'*60}")
     print(f"# RunAI Agent 评测 - {len(cases)} 个测试用例")
     print(f"# LangSmith Project: runai-eval")
@@ -56,6 +59,9 @@ async def run_eval(test_cases_path: str, output_dir: str = None):
 
             duration = (datetime.now() - start_time).total_seconds()
 
+            # 自动评分
+            eval_result = scorer.score(result, case)
+
             results.append({
                 "case_id": case["id"],
                 "category": case["category"],
@@ -65,9 +71,10 @@ async def run_eval(test_cases_path: str, output_dir: str = None):
                 "duration_seconds": duration,
                 "success": True,
                 "error": None,
+                "eval_score": eval_result.to_dict(),
             })
 
-            print(f"\n[Complete] Duration: {duration:.1f}s")
+            print(f"\n[Complete] Duration: {duration:.1f}s | Score: {eval_result.total_score}")
             print(f"Result preview: {result[:200]}..." if result else "[No result]")
 
         except Exception as e:
@@ -99,13 +106,23 @@ async def run_eval(test_cases_path: str, output_dir: str = None):
     success_count = sum(1 for r in results if r["success"])
     total_duration = sum(r["duration_seconds"] for r in results)
 
+    # 计算平均分
+    scores = [r["eval_score"]["total_score"] for r in results if r.get("eval_score")]
+    avg_score = sum(scores) / len(scores) if scores else 0
+
     print(f"\n成功率: {success_count}/{len(results)}")
+    print(f"平均分: {avg_score:.1f}")
     print(f"总耗时: {total_duration:.1f}s")
     print(f"平均耗时: {total_duration/len(results):.1f}s")
 
+    print(f"\n{'─'*60}")
+    print(f"{'Case':<8} {'Category':<15} {'Score':<8} {'Time':<8} {'Status'}")
+    print(f"{'─'*60}")
+
     for r in results:
         status = "✅" if r["success"] else "❌"
-        print(f"  {status} Case #{r['case_id']} ({r['category']}): {r['duration_seconds']:.1f}s")
+        score = r.get("eval_score", {}).get("total_score", 0)
+        print(f"#{r['case_id']:<7} {r['category']:<15} {score:<8.1f} {r['duration_seconds']:<8.1f}s {status}")
 
     # Save results
     if output_dir:
